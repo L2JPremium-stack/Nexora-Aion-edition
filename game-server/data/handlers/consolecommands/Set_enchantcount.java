@@ -1,14 +1,14 @@
 package consolecommands;
 
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.Persistable.PersistentState;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.EnchantService;
-import com.nexora.gameserver.services.item.ItemPacketService;
-import com.nexora.gameserver.services.item.ItemPacketService.ItemUpdateType;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.Persistable.PersistentState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.EnchantService;
+import com.aionemu.gameserver.services.item.ItemPacketService;
+import com.aionemu.gameserver.services.item.ItemPacketService.ItemUpdateType;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
 
 /**
  * @author ginho1

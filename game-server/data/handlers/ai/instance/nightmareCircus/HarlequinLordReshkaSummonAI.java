@@ -1,8 +1,8 @@
 package ai.instance.nightmareCircus;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.controllers.attack.AggroTarget;
-import com.nexora.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.controllers.attack.AggroTarget;
+import com.aionemu.gameserver.model.gameobjects.Npc;
 
 import ai.AggressiveNpcAI;
 

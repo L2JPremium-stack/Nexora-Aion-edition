@@ -5,12 +5,12 @@ import java.util.ArrayList;
 import java.util.Comparator;
 import java.util.List;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.ChatCommand;
-import com.nexora.gameserver.utils.chathandlers.ChatProcessor;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.ChatCommand;
+import com.aionemu.gameserver.utils.chathandlers.ChatProcessor;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Neon

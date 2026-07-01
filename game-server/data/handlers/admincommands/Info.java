@@ -2,30 +2,30 @@ package admincommands;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.SkillElement;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.Pet;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.npcFaction.ENpcFactionQuestState;
-import com.nexora.gameserver.model.gameobjects.player.npcFaction.NpcFaction;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.model.siege.FortressLocation;
-import com.nexora.gameserver.model.stats.container.PlayerGameStats;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.restrictions.PlayerRestrictions;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.TownService;
-import com.nexora.gameserver.spawnengine.ClusteredNpc;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.stats.CalculationType;
-import com.nexora.gameserver.utils.stats.StatFunctions;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.SkillElement;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.Pet;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.npcFaction.ENpcFactionQuestState;
+import com.aionemu.gameserver.model.gameobjects.player.npcFaction.NpcFaction;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.model.siege.FortressLocation;
+import com.aionemu.gameserver.model.stats.container.PlayerGameStats;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.restrictions.PlayerRestrictions;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.TownService;
+import com.aionemu.gameserver.spawnengine.ClusteredNpc;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.stats.CalculationType;
+import com.aionemu.gameserver.utils.stats.StatFunctions;
 
 /**
  * @author Nemiroff, Neon

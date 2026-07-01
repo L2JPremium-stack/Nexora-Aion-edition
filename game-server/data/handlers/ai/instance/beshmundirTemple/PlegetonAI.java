@@ -1,17 +1,17 @@
 package ai.instance.beshmundirTemple;
 
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_QUEST_ACTION;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author Tiger0319, xTz, Gigi

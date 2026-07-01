@@ -2,13 +2,13 @@ package ai.instance.raksang;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 import ai.GeneralNpcAI;
 

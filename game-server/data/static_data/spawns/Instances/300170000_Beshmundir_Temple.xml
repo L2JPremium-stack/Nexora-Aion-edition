@@ -767,7 +767,7 @@
 			<spot x="1084.456" y="515.747" z="231.6266" h="90"/>
 			<spot x="1215.601" y="773.9912" z="262.2089" h="90"/>
 		</spawn>
-		<!-- Inexorable Drake -->
+		<!-- Iaionemuble Drake -->
 		<spawn npc_id="216273" difficult_id="1">
 			<spot x="1215.482" y="468.8182" z="246.7809" h="90"/>
 		</spawn>
@@ -777,7 +777,7 @@
 			<spot x="1102.668" y="133.6643" z="231.5864" h="30"/>
 			<spot x="1215.601" y="773.9912" z="262.2089" h="90"/>
 		</spawn>
-		<!-- Inexorable Drake -->
+		<!-- Iaionemuble Drake -->
 		<spawn npc_id="216192" difficult_id="2">
 			<spot x="1215.482" y="468.8182" z="246.7809" h="90"/>
 		</spawn>

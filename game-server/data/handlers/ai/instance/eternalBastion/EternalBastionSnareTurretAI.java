@@ -2,14 +2,14 @@ package ai.instance.eternalBastion;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.manager.EmoteManager;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.templates.item.ItemAttackType;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.manager.EmoteManager;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.templates.item.ItemAttackType;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 
 /**
  * @author Estrayl

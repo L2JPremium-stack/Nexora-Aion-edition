@@ -8,24 +8,24 @@ import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.ScheduledFuture;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureState;
-import com.nexora.gameserver.model.items.ItemSlot;
-import com.nexora.gameserver.model.templates.item.ItemTemplate;
-import com.nexora.gameserver.model.templates.item.actions.AbstractItemAction;
-import com.nexora.gameserver.model.templates.item.actions.EmotionLearnAction;
-import com.nexora.gameserver.model.templates.item.enums.EquipType;
-import com.nexora.gameserver.model.templates.item.enums.ItemGroup;
-import com.nexora.gameserver.model.templates.itemset.ItemPart;
-import com.nexora.gameserver.model.templates.itemset.ItemSetTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.*;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.model.items.ItemSlot;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.model.templates.item.actions.AbstractItemAction;
+import com.aionemu.gameserver.model.templates.item.actions.EmotionLearnAction;
+import com.aionemu.gameserver.model.templates.item.enums.EquipType;
+import com.aionemu.gameserver.model.templates.item.enums.ItemGroup;
+import com.aionemu.gameserver.model.templates.itemset.ItemPart;
+import com.aionemu.gameserver.model.templates.itemset.ItemSetTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.*;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Neon

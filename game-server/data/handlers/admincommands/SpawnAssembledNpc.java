@@ -3,15 +3,15 @@ package admincommands;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.assemblednpc.AssembledNpc;
-import com.nexora.gameserver.model.assemblednpc.AssembledNpcPart;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.assemblednpc.AssembledNpcTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_NPC_ASSEMBLER;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.idfactory.IDFactory;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.assemblednpc.AssembledNpc;
+import com.aionemu.gameserver.model.assemblednpc.AssembledNpcPart;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.assemblednpc.AssembledNpcTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_NPC_ASSEMBLER;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.idfactory.IDFactory;
 
 /**
  * @author xTz

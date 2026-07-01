@@ -1,22 +1,22 @@
 package ai.instance.shugoImperialTomb;
 
-import static com.nexora.gameserver.model.DialogAction.*;
+import static com.aionemu.gameserver.model.DialogAction.*;
 
 import java.util.HashMap;
 import java.util.Map;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.geometry.Point3D;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.geometry.Point3D;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 import ai.GeneralNpcAI;
 

@@ -4,21 +4,21 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.controllers.attack.DamageInfo;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.npc.NpcTemplateType;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.panesterra.PanesterraService;
-import com.nexora.gameserver.services.panesterra.ahserion.AhserionRaid;
-import com.nexora.gameserver.services.panesterra.ahserion.PanesterraFaction;
-import com.nexora.gameserver.services.panesterra.ahserion.PanesterraTeam;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.controllers.attack.DamageInfo;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.npc.NpcTemplateType;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.panesterra.PanesterraService;
+import com.aionemu.gameserver.services.panesterra.ahserion.AhserionRaid;
+import com.aionemu.gameserver.services.panesterra.ahserion.PanesterraFaction;
+import com.aionemu.gameserver.services.panesterra.ahserion.PanesterraTeam;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author Yeats, Estrayl

@@ -1,12 +1,12 @@
 package ai.siege;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SHIELD_EFFECT;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SHIELD_EFFECT;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Source

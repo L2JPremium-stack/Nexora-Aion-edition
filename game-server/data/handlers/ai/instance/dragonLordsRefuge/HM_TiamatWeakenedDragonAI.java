@@ -4,14 +4,14 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.HpPhases;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.HpPhases;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author Estrayl

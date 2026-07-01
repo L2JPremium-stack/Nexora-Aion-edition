@@ -10,20 +10,20 @@ import java.util.stream.Collectors;
 import org.apache.commons.lang3.math.NumberUtils;
 import org.apache.commons.lang3.text.WordUtils;
 
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.house.House;
-import com.nexora.gameserver.model.templates.housing.HouseType;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.HousingService;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.WorldMapType;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.house.House;
+import com.aionemu.gameserver.model.templates.housing.HouseType;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.HousingService;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.WorldMapType;
 
 /**
  * @author Rolandas

@@ -1,14 +1,14 @@
 package ai.instance.tiamatStrongHold;
 
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Cheatkiller

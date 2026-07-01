@@ -13,37 +13,42 @@
 	</target>
 
 	<target name="compile-java" description="Compile Java before packaging.">
+		<!-- This keeps the generated jars in the project root libs folder. -->
 		<ant antfile="build.xml" target="dist-local" inheritAll="true" />
 	</target>
 
-	<target name="copy-server" depends="clean-package" description="Copy runnable server folders into dist/aion-server.">
+	<target name="copy-server" depends="clean-package" description="Copy runnable server folders into the temporary dist folder.">
 		<mkdir dir="${dist.dir}" />
 
 		<copy todir="${dist.dir}/game-server">
 			<fileset dir="game-server">
 				<exclude name="log/**" />
+				<exclude name="libs/**" />
 			</fileset>
 		</copy>
-		<mkdir dir="${dist.dir}/game-server/log" />
+		
 
 		<copy todir="${dist.dir}/login-server">
 			<fileset dir="login-server">
-				<exclude name="log/**" />
+				<exclude name="libs/**" />
 			</fileset>
 		</copy>
-		<mkdir dir="${dist.dir}/login-server/log" />
 
 		<copy todir="${dist.dir}/chat-server">
 			<fileset dir="chat-server">
-				<exclude name="log/**" />
+				<exclude name="libs/**" />
 			</fileset>
 		</copy>
-		<mkdir dir="${dist.dir}/chat-server/log" />
 
 		<copy todir="${dist.dir}/tools">
 			<fileset dir="tools" />
 		</copy>
- 
+
+		<copy todir="${dist.dir}/libs">
+			<fileset dir="libs">
+				<include name="**/*.jar" />
+			</fileset>
+		</copy>
 	</target>
 
 	<target name="zip-package" depends="copy-server" description="Create dist/aion-server.zip.">
@@ -52,10 +57,19 @@
 			<zipfileset dir="${dist.dir}/login-server" prefix="login-server" />
 			<zipfileset dir="${dist.dir}/chat-server" prefix="chat-server" />
 			<zipfileset dir="${dist.dir}/tools" prefix="tools" />
+			<zipfileset dir="${dist.dir}/libs" prefix="libs" />
 		</zip>
 	</target>
 
-	<target name="package-existing" depends="zip-package" description="Package the current files without recompiling Java." />
+	<target name="clean-staging" description="Remove temporary package folders and keep only the zip file.">
+		<delete dir="${dist.dir}/game-server" />
+		<delete dir="${dist.dir}/login-server" />
+		<delete dir="${dist.dir}/chat-server" />
+		<delete dir="${dist.dir}/tools" />
+		<delete dir="${dist.dir}/libs" />
+	</target>
 
-	<target name="package" depends="compile-java,zip-package" description="Compile Java and package the full Aion server." />
+	<target name="package-existing" depends="zip-package,clean-staging" description="Package the current files without recompiling Java." />
+
+	<target name="package" depends="compile-java,zip-package,clean-staging" description="Compile Java and package the full Aion server." />
 </project>

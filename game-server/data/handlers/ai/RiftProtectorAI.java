@@ -1,9 +1,9 @@
 package ai;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
 
 /**
  * @author Estrayl

@@ -1,11 +1,11 @@
 package ai.instance.shugoImperialTomb;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.ActionItemNpcAI;
 

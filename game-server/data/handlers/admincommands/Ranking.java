@@ -1,8 +1,8 @@
 package admincommands;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.abyss.AbyssRankUpdateService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.abyss.AbyssRankUpdateService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ATracer

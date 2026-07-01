@@ -5,19 +5,19 @@ import java.util.ArrayList;
 import java.util.Collection;
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIEngine;
-import com.nexora.gameserver.configs.Config;
-import com.nexora.gameserver.dataholders.*;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.event.EventTemplate;
-import com.nexora.gameserver.model.templates.npcskill.NpcSkillTemplates;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.handlers.models.XMLQuest;
-import com.nexora.gameserver.services.event.EventService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.chathandlers.ChatProcessor;
-import com.nexora.gameserver.utils.xml.JAXBUtil;
-import com.nexora.gameserver.utils.xml.XmlUtil;
+import com.aionemu.gameserver.ai.AIEngine;
+import com.aionemu.gameserver.configs.Config;
+import com.aionemu.gameserver.dataholders.*;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.event.EventTemplate;
+import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplates;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.handlers.models.XMLQuest;
+import com.aionemu.gameserver.services.event.EventService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.chathandlers.ChatProcessor;
+import com.aionemu.gameserver.utils.xml.JAXBUtil;
+import com.aionemu.gameserver.utils.xml.XmlUtil;
 
 /**
  * @author MrPoke, Neon

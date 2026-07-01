@@ -1,15 +1,15 @@
 package ai.instance.danuarSanctuary;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.model.DialogPage;
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.model.DialogPage;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Cheatkiller

@@ -2,10 +2,10 @@ package admincommands;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.RiftService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.RiftService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 public class Rift extends AdminCommand {
 

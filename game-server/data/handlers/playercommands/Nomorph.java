@@ -2,9 +2,9 @@ package playercommands;
 
 import java.awt.*;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 
 public class Nomorph extends PlayerCommand {

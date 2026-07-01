@@ -1,11 +1,11 @@
 package consolecommands;
 
-import com.nexora.gameserver.dao.BookmarkDAO;
-import com.nexora.gameserver.dao.BookmarkDAO.Bookmark;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_GM_BOOKMARK_ADD;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.dao.BookmarkDAO;
+import com.aionemu.gameserver.dao.BookmarkDAO.Bookmark;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_GM_BOOKMARK_ADD;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
 
 /**
  * @author ginho1

@@ -5,13 +5,13 @@ import java.util.Comparator;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.manager.EmoteManager;
-import com.nexora.gameserver.ai.manager.WalkManager;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.manager.EmoteManager;
+import com.aionemu.gameserver.ai.manager.WalkManager;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.PositionUtil;
 
 import ai.GeneralNpcAI;
 

@@ -1,7 +1,7 @@
 package instance;
 
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author Cheatkiller

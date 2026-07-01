@@ -5,13 +5,13 @@ import java.util.Iterator;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.pet.PetFunction;
-import com.nexora.gameserver.model.templates.pet.PetTemplate;
-import com.nexora.gameserver.services.toypet.PetAdoptionService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.pet.PetFunction;
+import com.aionemu.gameserver.model.templates.pet.PetTemplate;
+import com.aionemu.gameserver.services.toypet.PetAdoptionService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ATracer, Neon

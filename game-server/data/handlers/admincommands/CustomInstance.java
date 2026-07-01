@@ -1,11 +1,11 @@
 package admincommands;
 
-import com.nexora.gameserver.custom.instance.CustomInstanceRankEnum;
-import com.nexora.gameserver.custom.instance.CustomInstanceService;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.custom.instance.CustomInstanceRankEnum;
+import com.aionemu.gameserver.custom.instance.CustomInstanceService;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Estrayl

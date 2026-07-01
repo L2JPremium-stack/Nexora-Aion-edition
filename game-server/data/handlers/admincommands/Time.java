@@ -1,11 +1,11 @@
 package admincommands;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_GAME_TIME;
-import com.nexora.gameserver.services.GameTimeService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.time.gametime.GameTime;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_GAME_TIME;
+import com.aionemu.gameserver.services.GameTimeService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.time.gametime.GameTime;
 
 /**
  * @author Pan, Neon, Sykra

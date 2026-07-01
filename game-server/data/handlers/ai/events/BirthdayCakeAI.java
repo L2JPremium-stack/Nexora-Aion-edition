@@ -1,11 +1,11 @@
 package ai.events;
 
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
 import ai.GeneralNpcAI;
 

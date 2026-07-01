@@ -1,23 +1,23 @@
 package ai.instance.illuminaryObelisk;
 
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.controllers.observer.ItemUseObserver;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_EMOTION;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_USE_OBJECT;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_USE_OBJECT;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.GeneralNpcAI;
 

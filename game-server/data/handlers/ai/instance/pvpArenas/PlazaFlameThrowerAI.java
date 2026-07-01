@@ -2,13 +2,13 @@ package ai.instance.pvpArenas;
 
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.instancescore.InstanceScore;
-import com.nexora.gameserver.model.instance.instancescore.PvPArenaScore;
-import com.nexora.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.instancescore.InstanceScore;
+import com.aionemu.gameserver.model.instance.instancescore.PvPArenaScore;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
 import ai.ShifterAI;
 

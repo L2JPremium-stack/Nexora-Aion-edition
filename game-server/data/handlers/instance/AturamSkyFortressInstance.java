@@ -1,29 +1,29 @@
 package instance;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_MSG_IDStation_Doping_01_AD;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_MSG_IDStation_Doping_01_AD;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.manager.WalkManager;
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureState;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.LOG;
-import com.nexora.gameserver.network.aion.serverpackets.SM_EMOTION;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.abyss.AbyssPointsService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.zone.ZoneInstance;
-import com.nexora.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.manager.WalkManager;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.LOG;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.abyss.AbyssPointsService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.zone.ZoneInstance;
+import com.aionemu.gameserver.world.zone.ZoneName;
 
 /**
  * @author xTz

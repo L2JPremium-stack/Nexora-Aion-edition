@@ -3,18 +3,18 @@ package ai.worlds.panesterra.ahserionsflight;
 import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.panesterra.PanesterraService;
-import com.nexora.gameserver.services.panesterra.ahserion.AhserionRaid;
-import com.nexora.gameserver.services.panesterra.ahserion.PanesterraFaction;
-import com.nexora.gameserver.services.panesterra.ahserion.PanesterraTeam;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.panesterra.PanesterraService;
+import com.aionemu.gameserver.services.panesterra.ahserion.AhserionRaid;
+import com.aionemu.gameserver.services.panesterra.ahserion.PanesterraFaction;
+import com.aionemu.gameserver.services.panesterra.ahserion.PanesterraTeam;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.ActionItemNpcAI;
 

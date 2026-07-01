@@ -1,13 +1,13 @@
 package ai.instance.rakes;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.HpPhases;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.HpPhases;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 import ai.AggressiveNpcAI;
 

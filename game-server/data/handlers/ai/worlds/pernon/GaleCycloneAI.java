@@ -3,15 +3,15 @@ package ai.worlds.pernon;
 import java.util.Map;
 import java.util.concurrent.ConcurrentHashMap;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.controllers.observer.ActionObserver;
-import com.nexora.gameserver.controllers.observer.ObserverType;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.controllers.observer.ActionObserver;
+import com.aionemu.gameserver.controllers.observer.ObserverType;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.PositionUtil;
 
 /**
  * @author xTz

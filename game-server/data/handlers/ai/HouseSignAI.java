@@ -1,11 +1,11 @@
 package ai;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.DialogPage;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.DialogPage;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Rolandas

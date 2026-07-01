@@ -1,12 +1,12 @@
 package ai.instance.drakenspire;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.controllers.attack.AggroTarget;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.templates.item.ItemAttackType;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.controllers.attack.AggroTarget;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.templates.item.ItemAttackType;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.AggressiveNoLootNpcAI;
 

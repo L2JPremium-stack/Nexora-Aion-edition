@@ -2,18 +2,18 @@ package ai.worlds.gelkmaros;
 
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.HpPhases;
-import com.nexora.gameserver.controllers.observer.DeathObserver;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.HpPhases;
+import com.aionemu.gameserver.controllers.observer.DeathObserver;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.AggressiveNpcAI;
 

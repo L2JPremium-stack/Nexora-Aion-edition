@@ -2,19 +2,19 @@ package ai;
 
 import java.util.concurrent.Future;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AIState;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.event.AIEventType;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.state.CreatureVisualState;
-import com.nexora.gameserver.model.skill.NpcSkillEntry;
-import com.nexora.gameserver.network.aion.serverpackets.SM_PLAYER_STATE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AIState;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.event.AIEventType;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureVisualState;
+import com.aionemu.gameserver.model.skill.NpcSkillEntry;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAYER_STATE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author ATracer

@@ -3,21 +3,21 @@ package instance.pvp;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.InstanceProgressionType;
-import com.nexora.gameserver.model.instance.instancescore.PvpInstanceScore;
-import com.nexora.gameserver.model.instance.playerreward.PvpInstancePlayerReward;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.WorldPosition;
-import com.nexora.gameserver.world.zone.ZoneInstance;
-import com.nexora.gameserver.world.zone.ZoneName;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.InstanceProgressionType;
+import com.aionemu.gameserver.model.instance.instancescore.PvpInstanceScore;
+import com.aionemu.gameserver.model.instance.playerreward.PvpInstancePlayerReward;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.WorldPosition;
+import com.aionemu.gameserver.world.zone.ZoneInstance;
+import com.aionemu.gameserver.world.zone.ZoneName;
 
 /**
  * Morale Boost is applied to re-spawning players which are a part of the loosing side (ID: 10)

@@ -3,12 +3,12 @@ package admincommands;
 import java.util.Arrays;
 import java.util.EnumSet;
 
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.stats.calc.functions.StatSetFunction;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.stats.calc.functions.StatSetFunction;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Estrayl

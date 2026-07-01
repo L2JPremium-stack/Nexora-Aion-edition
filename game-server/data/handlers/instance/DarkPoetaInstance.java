@@ -6,25 +6,25 @@ import java.util.List;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Gatherable;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.InstanceProgressionType;
-import com.nexora.gameserver.model.instance.instancescore.DarkPoetaScore;
-import com.nexora.gameserver.model.team.TemporaryPlayerTeam;
-import com.nexora.gameserver.network.aion.instanceinfo.DarkPoetaScoreWriter;
-import com.nexora.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.skillengine.model.Skill;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.stats.AbyssRankEnum;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Gatherable;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.InstanceProgressionType;
+import com.aionemu.gameserver.model.instance.instancescore.DarkPoetaScore;
+import com.aionemu.gameserver.model.team.TemporaryPlayerTeam;
+import com.aionemu.gameserver.network.aion.instanceinfo.DarkPoetaScoreWriter;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.skillengine.model.Skill;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.stats.AbyssRankEnum;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author Hilgert, xTz, Tiger, Ritsu, Estrayl

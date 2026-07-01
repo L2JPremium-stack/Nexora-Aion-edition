@@ -1,6 +1,6 @@
 package ai;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.*;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.*;
 
 import java.util.concurrent.ScheduledFuture;
 import java.util.function.Consumer;
@@ -8,32 +8,32 @@ import java.util.function.Consumer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AIRequest;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.configs.main.LoggingConfig;
-import com.nexora.gameserver.controllers.observer.ItemUseObserver;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.model.siege.ArtifactLocation;
-import com.nexora.gameserver.model.siege.ArtifactStatus;
-import com.nexora.gameserver.model.team.legion.LegionPermissionsMask;
-import com.nexora.gameserver.model.templates.siegelocation.ArtifactActivation;
-import com.nexora.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.*;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
-import com.nexora.gameserver.skillengine.properties.TargetSpeciesAttribute;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AIRequest;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.configs.main.LoggingConfig;
+import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.model.siege.ArtifactLocation;
+import com.aionemu.gameserver.model.siege.ArtifactStatus;
+import com.aionemu.gameserver.model.team.legion.LegionPermissionsMask;
+import com.aionemu.gameserver.model.templates.siegelocation.ArtifactActivation;
+import com.aionemu.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.*;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.skillengine.properties.TargetSpeciesAttribute;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author ATracer, Source

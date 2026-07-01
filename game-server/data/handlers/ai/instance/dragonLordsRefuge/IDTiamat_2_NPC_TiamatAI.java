@@ -1,10 +1,10 @@
 package ai.instance.dragonLordsRefuge;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.CreatureType;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.CreatureType;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 
 import ai.GeneralNpcAI;
 

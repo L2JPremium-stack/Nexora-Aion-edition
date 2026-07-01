@@ -2,11 +2,11 @@ package ai.instance.abyss;
 
 import java.util.concurrent.Future;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * Created on June 24th, 2016

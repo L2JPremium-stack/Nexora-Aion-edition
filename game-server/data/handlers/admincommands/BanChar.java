@@ -1,12 +1,12 @@
 package admincommands;
 
-import com.nexora.gameserver.dao.PlayerDAO;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.PunishmentService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.Util;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.dao.PlayerDAO;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.PunishmentService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author nrg

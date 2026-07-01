@@ -3,15 +3,15 @@ package ai.classNpc;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.Servant;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.spawnengine.SpawnEngine;
-import com.nexora.gameserver.spawnengine.VisibleObjectSpawner;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.Servant;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.spawnengine.VisibleObjectSpawner;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import ai.AggressiveNpcAI;
 

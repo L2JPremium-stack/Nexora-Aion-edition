@@ -6,15 +6,15 @@ import java.util.List;
 import java.util.function.Predicate;
 import java.util.stream.Collectors;
 
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.house.House;
-import com.nexora.gameserver.model.templates.housing.HouseType;
-import com.nexora.gameserver.services.HousingBidService;
-import com.nexora.gameserver.services.HousingService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.collections.Predicates;
-import com.nexora.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.house.House;
+import com.aionemu.gameserver.model.templates.housing.HouseType;
+import com.aionemu.gameserver.services.HousingBidService;
+import com.aionemu.gameserver.services.HousingService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.collections.Predicates;
+import com.aionemu.gameserver.world.zone.ZoneName;
 
 /**
  * @author Rolandas, Luzien, Neon

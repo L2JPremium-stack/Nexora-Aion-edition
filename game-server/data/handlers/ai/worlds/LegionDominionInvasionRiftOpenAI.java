@@ -1,21 +1,21 @@
 package ai.worlds;
 
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.legionDominion.LegionDominionLocation;
-import com.nexora.gameserver.model.templates.LegionDominionInvasionRift;
-import com.nexora.gameserver.model.templates.npc.NpcTemplate;
-import com.nexora.gameserver.model.templates.npc.SubDialogType;
-import com.nexora.gameserver.model.templates.npc.TalkInfo;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.services.LegionDominionService;
-import com.nexora.gameserver.services.RiftService;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.legionDominion.LegionDominionLocation;
+import com.aionemu.gameserver.model.templates.LegionDominionInvasionRift;
+import com.aionemu.gameserver.model.templates.npc.NpcTemplate;
+import com.aionemu.gameserver.model.templates.npc.SubDialogType;
+import com.aionemu.gameserver.model.templates.npc.TalkInfo;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.services.LegionDominionService;
+import com.aionemu.gameserver.services.RiftService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import ai.GeneralNpcAI;
 

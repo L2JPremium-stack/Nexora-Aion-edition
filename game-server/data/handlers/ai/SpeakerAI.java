@@ -1,11 +1,11 @@
 package ai;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.siege.SiegeRace;
-import com.nexora.gameserver.model.templates.npcshout.ShoutEventType;
-import com.nexora.gameserver.services.SiegeService;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.siege.SiegeRace;
+import com.aionemu.gameserver.model.templates.npcshout.ShoutEventType;
+import com.aionemu.gameserver.services.SiegeService;
 
 /**
  * @author Rolandas

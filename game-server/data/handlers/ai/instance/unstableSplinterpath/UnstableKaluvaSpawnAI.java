@@ -2,17 +2,17 @@ package ai.instance.unstableSplinterpath;
 
 import java.util.concurrent.Future;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldPosition;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldPosition;
 
 @AIName("unstablekaluvaspawn")
 public class UnstableKaluvaSpawnAI extends NpcAI {

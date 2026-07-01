@@ -1,13 +1,13 @@
 package ai.instance.theShugoEmperorsVault;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.instance.handlers.InstanceHandler;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.instance.InstanceProgressionType;
-import com.nexora.gameserver.model.instance.instancescore.InstanceScore;
-import com.nexora.gameserver.skillengine.model.Effect;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.instance.handlers.InstanceHandler;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.instance.InstanceProgressionType;
+import com.aionemu.gameserver.model.instance.instancescore.InstanceScore;
+import com.aionemu.gameserver.skillengine.model.Effect;
 
 import ai.AggressiveNoLootNpcAI;
 

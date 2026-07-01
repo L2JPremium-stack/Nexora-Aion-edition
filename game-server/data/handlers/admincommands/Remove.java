@@ -3,12 +3,12 @@ package admincommands;
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.items.storage.Storage;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.Util;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.items.storage.Storage;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author Phantom, ATracer

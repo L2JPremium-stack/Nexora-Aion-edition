@@ -1,11 +1,11 @@
 package ai.instance.eternalBastion;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureSeeState;
-import com.nexora.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureSeeState;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
 /**
  * @author Estrayl

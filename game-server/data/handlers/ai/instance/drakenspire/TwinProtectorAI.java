@@ -3,12 +3,12 @@ package ai.instance.drakenspire;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.HpPhases;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.HpPhases;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 
 import ai.AggressiveNoLootNpcAI;
 

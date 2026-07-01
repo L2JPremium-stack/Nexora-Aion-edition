@@ -1,8 +1,8 @@
 package consolecommands;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.ChatProcessor;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.ChatProcessor;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
 
 import admincommands.GoTo;
 

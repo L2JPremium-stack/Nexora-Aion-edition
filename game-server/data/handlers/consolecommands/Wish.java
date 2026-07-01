@@ -6,21 +6,21 @@ import java.util.List;
 import javax.xml.bind.Unmarshaller;
 import javax.xml.bind.annotation.*;
 
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.item.enums.EquipType;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.AdminService;
-import com.nexora.gameserver.services.EnchantService;
-import com.nexora.gameserver.services.item.ItemFactory;
-import com.nexora.gameserver.services.item.ItemService;
-import com.nexora.gameserver.spawnengine.SpawnEngine;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
-import com.nexora.gameserver.utils.xml.JAXBUtil;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.item.enums.EquipType;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.AdminService;
+import com.aionemu.gameserver.services.EnchantService;
+import com.aionemu.gameserver.services.item.ItemFactory;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.utils.xml.JAXBUtil;
 
 /**
  * Sent in the following cases:<br>

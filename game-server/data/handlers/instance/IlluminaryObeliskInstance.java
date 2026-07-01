@@ -5,24 +5,24 @@ import java.util.List;
 import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.manager.WalkManager;
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.player.PlayerReviveService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.manager.WalkManager;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author Estrayl

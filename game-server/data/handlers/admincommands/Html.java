@@ -1,10 +1,10 @@
 package admincommands;
 
-import com.nexora.gameserver.cache.HTMLCache;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.HTMLService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.cache.HTMLCache;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.HTMLService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author lord_rex

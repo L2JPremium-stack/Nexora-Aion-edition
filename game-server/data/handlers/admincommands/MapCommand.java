@@ -2,11 +2,11 @@ package admincommands;
 
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIState;
-import com.nexora.gameserver.ai.event.AIEventType;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.ai.AIState;
+import com.aionemu.gameserver.ai.event.AIEventType;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Rolandas, Neon

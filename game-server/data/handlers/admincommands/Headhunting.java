@@ -5,23 +5,23 @@ import java.util.*;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.cache.HTMLCache;
-import com.nexora.gameserver.configs.main.EventsConfig;
-import com.nexora.gameserver.dao.HeadhuntingDAO;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.PlayerClass;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.event.Headhunter;
-import com.nexora.gameserver.model.gameobjects.LetterType;
-import com.nexora.gameserver.model.gameobjects.Persistable.PersistentState;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.PlayerCommonData;
-import com.nexora.gameserver.model.templates.rewards.RewardItem;
-import com.nexora.gameserver.services.HTMLService;
-import com.nexora.gameserver.services.PvpService;
-import com.nexora.gameserver.services.mail.SystemMailService;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.cache.HTMLCache;
+import com.aionemu.gameserver.configs.main.EventsConfig;
+import com.aionemu.gameserver.dao.HeadhuntingDAO;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.PlayerClass;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.event.Headhunter;
+import com.aionemu.gameserver.model.gameobjects.LetterType;
+import com.aionemu.gameserver.model.gameobjects.Persistable.PersistentState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.PlayerCommonData;
+import com.aionemu.gameserver.model.templates.rewards.RewardItem;
+import com.aionemu.gameserver.services.HTMLService;
+import com.aionemu.gameserver.services.PvpService;
+import com.aionemu.gameserver.services.mail.SystemMailService;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * A command that handles analysis and rewarding for seasonal head hunting events.

@@ -4,10 +4,10 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.custom.instance.CustomInstanceService;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.custom.instance.CustomInstanceService;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
 
 import ai.GeneralNpcAI;
 

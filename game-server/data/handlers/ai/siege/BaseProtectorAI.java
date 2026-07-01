@@ -1,19 +1,19 @@
 package ai.siege;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.configs.main.SiegeConfig;
-import com.nexora.gameserver.controllers.attack.DamageInfo;
-import com.nexora.gameserver.model.base.Base;
-import com.nexora.gameserver.model.base.BaseOccupier;
-import com.nexora.gameserver.model.gameobjects.AionObject;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.model.team.TemporaryPlayerTeam;
-import com.nexora.gameserver.model.templates.spawns.basespawns.BaseSpawnTemplate;
-import com.nexora.gameserver.services.BaseService;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.configs.main.SiegeConfig;
+import com.aionemu.gameserver.controllers.attack.DamageInfo;
+import com.aionemu.gameserver.model.base.Base;
+import com.aionemu.gameserver.model.base.BaseOccupier;
+import com.aionemu.gameserver.model.gameobjects.AionObject;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.model.team.TemporaryPlayerTeam;
+import com.aionemu.gameserver.model.templates.spawns.basespawns.BaseSpawnTemplate;
+import com.aionemu.gameserver.services.BaseService;
 
 import ai.AggressiveNpcAI;
 

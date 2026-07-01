@@ -1,23 +1,23 @@
 package ai.siege;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AIRequest;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.siegelocation.DoorRepairData;
-import com.nexora.gameserver.model.templates.siegelocation.DoorRepairStone;
-import com.nexora.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AIRequest;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.siegelocation.DoorRepairData;
+import com.aionemu.gameserver.model.templates.siegelocation.DoorRepairStone;
+import com.aionemu.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
 
 /**
  * @author Source

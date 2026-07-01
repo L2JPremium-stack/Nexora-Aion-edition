@@ -1,28 +1,28 @@
 package instance;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
 
 import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
-import com.nexora.gameserver.services.player.PlayerReviveService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.spawnengine.SpawnEngine;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.zone.ZoneInstance;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_PLAY_MOVIE;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.zone.ZoneInstance;
 
 /**
  * @author xTz, Gigi, Pad

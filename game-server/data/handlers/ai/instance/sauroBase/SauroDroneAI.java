@@ -1,8 +1,8 @@
 package ai.instance.sauroBase;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 
 import ai.AggressiveNpcAI;
 

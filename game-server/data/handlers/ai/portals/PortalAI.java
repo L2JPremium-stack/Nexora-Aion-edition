@@ -1,17 +1,17 @@
 package ai.portals;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.DialogAction;
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.portal.PortalPath;
-import com.nexora.gameserver.model.templates.teleport.TeleporterTemplate;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.services.teleport.PortalService;
-import com.nexora.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.DialogAction;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.portal.PortalPath;
+import com.aionemu.gameserver.model.templates.teleport.TeleporterTemplate;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.services.teleport.PortalService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
 
 import ai.ActionItemNpcAI;
 

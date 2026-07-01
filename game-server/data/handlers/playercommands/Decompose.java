@@ -1,17 +1,17 @@
 package playercommands;
 
-import com.nexora.gameserver.controllers.observer.ItemUseObserver;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.item.actions.DecomposeAction;
-import com.nexora.gameserver.model.templates.item.actions.ItemActions;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.item.actions.DecomposeAction;
+import com.aionemu.gameserver.model.templates.item.actions.ItemActions;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Neon

@@ -1,7 +1,7 @@
 package ai.instance.shugoImperialTomb;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
 
 /**
  * @author Ritsu

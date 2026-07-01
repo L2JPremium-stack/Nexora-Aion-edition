@@ -1,19 +1,19 @@
 package admincommands;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.HouseObject;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.housing.PlaceableHouseObject;
-import com.nexora.gameserver.model.templates.item.ItemTemplate;
-import com.nexora.gameserver.model.templates.item.actions.ItemActions;
-import com.nexora.gameserver.model.templates.item.actions.SummonHouseObjectAction;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.spawnengine.SpawnEngine;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.idfactory.IDFactory;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.HouseObject;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.housing.PlaceableHouseObject;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.model.templates.item.actions.ItemActions;
+import com.aionemu.gameserver.model.templates.item.actions.SummonHouseObjectAction;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.idfactory.IDFactory;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author Luno, Neon

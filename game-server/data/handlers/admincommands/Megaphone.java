@@ -6,15 +6,15 @@ import java.util.List;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.item.ItemTemplate;
-import com.nexora.gameserver.model.templates.item.actions.AbstractItemAction;
-import com.nexora.gameserver.model.templates.item.actions.MegaphoneAction;
-import com.nexora.gameserver.network.aion.serverpackets.SM_MEGAPHONE;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.model.templates.item.actions.AbstractItemAction;
+import com.aionemu.gameserver.model.templates.item.actions.MegaphoneAction;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_MEGAPHONE;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ginho1, Neon

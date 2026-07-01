@@ -3,12 +3,12 @@ package ai.instance.drakenspire;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * Guide:

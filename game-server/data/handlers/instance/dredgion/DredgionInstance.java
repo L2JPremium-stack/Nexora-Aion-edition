@@ -1,6 +1,6 @@
 package instance.dredgion;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
 
 import java.util.ArrayList;
 import java.util.List;
@@ -8,34 +8,34 @@ import java.util.concurrent.Future;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.concurrent.atomic.AtomicInteger;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.manager.WalkManager;
-import com.nexora.gameserver.configs.main.GroupConfig;
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.Rates;
-import com.nexora.gameserver.model.instance.DredgionRoom;
-import com.nexora.gameserver.model.instance.InstanceProgressionType;
-import com.nexora.gameserver.model.instance.instancescore.InstanceScore;
-import com.nexora.gameserver.model.instance.instancescore.PvpInstanceScore;
-import com.nexora.gameserver.model.instance.playerreward.PvpInstancePlayerReward;
-import com.nexora.gameserver.network.aion.instanceinfo.DredgionScoreWriter;
-import com.nexora.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.services.abyss.AbyssPointsService;
-import com.nexora.gameserver.services.item.ItemService;
-import com.nexora.gameserver.services.player.PlayerReviveService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.manager.WalkManager;
+import com.aionemu.gameserver.configs.main.GroupConfig;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.Rates;
+import com.aionemu.gameserver.model.instance.DredgionRoom;
+import com.aionemu.gameserver.model.instance.InstanceProgressionType;
+import com.aionemu.gameserver.model.instance.instancescore.InstanceScore;
+import com.aionemu.gameserver.model.instance.instancescore.PvpInstanceScore;
+import com.aionemu.gameserver.model.instance.playerreward.PvpInstancePlayerReward;
+import com.aionemu.gameserver.network.aion.instanceinfo.DredgionScoreWriter;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.services.abyss.AbyssPointsService;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author xTz

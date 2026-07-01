@@ -1,10 +1,10 @@
 package ai.siege;
 
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.model.siege.SiegeLocation;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.siege.Siege;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.model.siege.SiegeLocation;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.siege.Siege;
 
 public abstract class AbstractSiegeProtectorAI extends SiegeNpcAI {
 

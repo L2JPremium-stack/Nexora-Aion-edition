@@ -3,21 +3,21 @@ package admincommands;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.Gatherable;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.spawns.SpawnGroup;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.model.templates.walker.WalkerTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DELETE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_GATHERABLE_INFO;
-import com.nexora.gameserver.network.aion.serverpackets.SM_NPC_INFO;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.WorldPosition;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.Gatherable;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.spawns.SpawnGroup;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.model.templates.walker.WalkerTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DELETE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_GATHERABLE_INFO;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_NPC_INFO;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.WorldPosition;
 
 /**
  * @author KID, Rolandas, Neon

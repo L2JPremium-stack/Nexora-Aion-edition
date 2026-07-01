@@ -1,9 +1,9 @@
 package instance;
 
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author Yeats

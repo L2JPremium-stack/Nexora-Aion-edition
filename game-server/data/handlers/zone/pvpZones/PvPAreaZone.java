@@ -1,12 +1,12 @@
 package zone.pvpZones;
 
-import com.nexora.gameserver.configs.main.CustomConfig;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.world.zone.ZoneInstance;
-import com.nexora.gameserver.world.zone.ZoneName;
-import com.nexora.gameserver.world.zone.handler.ZoneNameAnnotation;
+import com.aionemu.gameserver.configs.main.CustomConfig;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.world.zone.ZoneInstance;
+import com.aionemu.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.world.zone.handler.ZoneNameAnnotation;
 
 /**
  * @author MrPoke

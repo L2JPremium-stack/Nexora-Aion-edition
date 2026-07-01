@@ -3,14 +3,14 @@ package admincommands;
 import java.util.ArrayList;
 import java.util.List;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.model.stats.calc.StatOwner;
-import com.nexora.gameserver.model.stats.calc.functions.IStatFunction;
-import com.nexora.gameserver.model.stats.calc.functions.StatFunction;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.stats.CalculationType;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.model.stats.calc.StatOwner;
+import com.aionemu.gameserver.model.stats.calc.functions.IStatFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatFunction;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.stats.CalculationType;
 
 /**
  * @author ATracer, Neon

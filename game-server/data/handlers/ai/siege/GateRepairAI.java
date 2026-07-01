@@ -1,35 +1,35 @@
 package ai.siege;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.*;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.*;
 
 import java.util.concurrent.atomic.AtomicLong;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.configs.main.LoggingConfig;
-import com.nexora.gameserver.configs.main.SiegeConfig;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.animations.ActionAnimation;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.RequestResponseHandler;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.model.siege.FortressLocation;
-import com.nexora.gameserver.model.team.legion.LegionPermissionsMask;
-import com.nexora.gameserver.model.templates.siegelocation.DoorRepairData;
-import com.nexora.gameserver.model.templates.siegelocation.DoorRepairStone;
-import com.nexora.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ACTION_ANIMATION;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS;
-import com.nexora.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.siege.SiegeException;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.configs.main.LoggingConfig;
+import com.aionemu.gameserver.configs.main.SiegeConfig;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.animations.ActionAnimation;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.RequestResponseHandler;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.model.siege.FortressLocation;
+import com.aionemu.gameserver.model.team.legion.LegionPermissionsMask;
+import com.aionemu.gameserver.model.templates.siegelocation.DoorRepairData;
+import com.aionemu.gameserver.model.templates.siegelocation.DoorRepairStone;
+import com.aionemu.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ACTION_ANIMATION;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.siege.SiegeException;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author Source

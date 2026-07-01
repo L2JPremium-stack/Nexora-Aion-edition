@@ -2,22 +2,22 @@ package ai.instance.theShugoEmperorsVault;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.controllers.observer.ItemUseObserver;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_EMOTION;
-import com.nexora.gameserver.network.aion.serverpackets.SM_USE_OBJECT;
-import com.nexora.gameserver.services.DialogService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.controllers.observer.ItemUseObserver;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_USE_OBJECT;
+import com.aionemu.gameserver.services.DialogService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.GeneralNpcAI;
 

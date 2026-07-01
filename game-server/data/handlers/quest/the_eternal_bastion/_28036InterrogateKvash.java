@@ -1,12 +1,12 @@
 package quest.the_eternal_bastion;
 
-import static com.nexora.gameserver.model.DialogAction.QUEST_SELECT;
-import static com.nexora.gameserver.model.DialogAction.SETPRO1;
+import static com.aionemu.gameserver.model.DialogAction.QUEST_SELECT;
+import static com.aionemu.gameserver.model.DialogAction.SETPRO1;
 
-import com.nexora.gameserver.questEngine.handlers.AbstractQuestHandler;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.questEngine.model.QuestState;
-import com.nexora.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.questEngine.handlers.AbstractQuestHandler;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.questEngine.model.QuestState;
+import com.aionemu.gameserver.questEngine.model.QuestStatus;
 
 public class _28036InterrogateKvash extends AbstractQuestHandler {
 

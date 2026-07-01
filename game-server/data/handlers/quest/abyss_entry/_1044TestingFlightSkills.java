@@ -1,13 +1,13 @@
 package quest.abyss_entry;
 
-import static com.nexora.gameserver.model.DialogAction.*;
+import static com.aionemu.gameserver.model.DialogAction.*;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.questEngine.handlers.AbstractQuestHandler;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.questEngine.model.QuestState;
-import com.nexora.gameserver.questEngine.model.QuestStatus;
-import com.nexora.gameserver.services.QuestService;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.questEngine.handlers.AbstractQuestHandler;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.questEngine.model.QuestState;
+import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.services.QuestService;
 
 /**
  * Speak to Telemachus (203901). Talk with Daedalus (203930) about your flight test. Go through all the rings within the time limit. Talk with

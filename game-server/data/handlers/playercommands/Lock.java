@@ -1,9 +1,9 @@
 package playercommands;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.loginserver.LoginServer;
-import com.nexora.gameserver.network.loginserver.serverpackets.SM_CHANGE_ALLOWED_HDD_SERIAL;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.loginserver.LoginServer;
+import com.aionemu.gameserver.network.loginserver.serverpackets.SM_CHANGE_ALLOWED_HDD_SERIAL;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author ViAl, Neon

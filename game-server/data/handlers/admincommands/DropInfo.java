@@ -2,22 +2,22 @@ package admincommands;
 
 import java.util.List;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.drop.Drop;
-import com.nexora.gameserver.model.drop.DropGroup;
-import com.nexora.gameserver.model.drop.DropModifiers;
-import com.nexora.gameserver.model.drop.NpcDrop;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.globaldrops.GlobalDropItem;
-import com.nexora.gameserver.model.templates.globaldrops.GlobalRule;
-import com.nexora.gameserver.services.drop.DropRegistrationService;
-import com.nexora.gameserver.services.event.EventService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.WorldDropType;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.drop.Drop;
+import com.aionemu.gameserver.model.drop.DropGroup;
+import com.aionemu.gameserver.model.drop.DropModifiers;
+import com.aionemu.gameserver.model.drop.NpcDrop;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.globaldrops.GlobalDropItem;
+import com.aionemu.gameserver.model.templates.globaldrops.GlobalRule;
+import com.aionemu.gameserver.services.drop.DropRegistrationService;
+import com.aionemu.gameserver.services.event.EventService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.WorldDropType;
 
 /**
  * @author Oliver, AionCool, Bobobear, Neon

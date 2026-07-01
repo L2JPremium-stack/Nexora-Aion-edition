@@ -1,16 +1,16 @@
 package instance.pvparenas;
 
-import com.nexora.gameserver.configs.main.RatesConfig;
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.Rates;
-import com.nexora.gameserver.model.instance.InstanceScoreType;
-import com.nexora.gameserver.model.instance.playerreward.PvPArenaPlayerReward;
-import com.nexora.gameserver.model.templates.rewards.RewardItem;
-import com.nexora.gameserver.network.aion.instanceinfo.ArenaScoreWriter;
-import com.nexora.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.configs.main.RatesConfig;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.Rates;
+import com.aionemu.gameserver.model.instance.InstanceScoreType;
+import com.aionemu.gameserver.model.instance.playerreward.PvPArenaPlayerReward;
+import com.aionemu.gameserver.model.templates.rewards.RewardItem;
+import com.aionemu.gameserver.network.aion.instanceinfo.ArenaScoreWriter;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_INSTANCE_SCORE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author xTz, Estrayl

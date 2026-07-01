@@ -1,9 +1,9 @@
 package ai.quests;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AIState;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AIState;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
 
 import ai.AggressiveNpcAI;
 

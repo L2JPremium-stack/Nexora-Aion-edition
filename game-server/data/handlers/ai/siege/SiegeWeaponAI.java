@@ -1,19 +1,19 @@
 package ai.siege;
 
-import com.nexora.gameserver.ai.AILogger;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AIState;
-import com.nexora.gameserver.ai.AITemplate;
-import com.nexora.gameserver.ai.handler.FollowEventHandler;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.controllers.SiegeWeaponController;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Summon;
-import com.nexora.gameserver.model.summons.SummonMode;
-import com.nexora.gameserver.model.templates.npcskill.NpcSkillTemplate;
-import com.nexora.gameserver.model.templates.npcskill.NpcSkillTemplates;
-import com.nexora.gameserver.services.summons.SummonsService;
+import com.aionemu.gameserver.ai.AILogger;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AIState;
+import com.aionemu.gameserver.ai.AITemplate;
+import com.aionemu.gameserver.ai.handler.FollowEventHandler;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.controllers.SiegeWeaponController;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Summon;
+import com.aionemu.gameserver.model.summons.SummonMode;
+import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplate;
+import com.aionemu.gameserver.model.templates.npcskill.NpcSkillTemplates;
+import com.aionemu.gameserver.services.summons.SummonsService;
 
 /**
  * @author xTz

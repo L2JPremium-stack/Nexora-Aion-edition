@@ -1,17 +1,17 @@
 package quest.eltnen;
 
-import static com.nexora.gameserver.model.DialogAction.*;
+import static com.aionemu.gameserver.model.DialogAction.*;
 
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.LOG;
-import com.nexora.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.TYPE;
-import com.nexora.gameserver.questEngine.handlers.AbstractQuestHandler;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.questEngine.model.QuestState;
-import com.nexora.gameserver.questEngine.model.QuestStatus;
-import com.nexora.gameserver.services.QuestService;
-import com.nexora.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.LOG;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_ATTACK_STATUS.TYPE;
+import com.aionemu.gameserver.questEngine.handlers.AbstractQuestHandler;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.questEngine.model.QuestState;
+import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.services.QuestService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
 /**
  * @author Ritsu, Pad

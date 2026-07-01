@@ -2,12 +2,12 @@ package ai.worlds.panesterra.ahserionsflight;
 
 import java.util.concurrent.TimeUnit;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.controllers.attack.AggroTarget;
-import com.nexora.gameserver.model.TaskId;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.templates.spawns.panesterra.AhserionsFlightSpawnTemplate;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.controllers.attack.AggroTarget;
+import com.aionemu.gameserver.model.TaskId;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.templates.spawns.panesterra.AhserionsFlightSpawnTemplate;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.AggressiveNoLootNpcAI;
 

@@ -2,13 +2,13 @@ package admincommands;
 
 import java.util.Comparator;
 
-import com.nexora.gameserver.model.base.Base;
-import com.nexora.gameserver.model.base.BaseLocation;
-import com.nexora.gameserver.model.base.BaseOccupier;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.BaseService;
-import com.nexora.gameserver.spawnengine.SpawnHandlerType;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.base.Base;
+import com.aionemu.gameserver.model.base.BaseLocation;
+import com.aionemu.gameserver.model.base.BaseOccupier;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.BaseService;
+import com.aionemu.gameserver.spawnengine.SpawnHandlerType;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 public class BaseCommand extends AdminCommand {
 

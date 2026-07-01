@@ -2,21 +2,21 @@ package ai.instance.rentusBase;
 
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.manager.WalkManager;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.EmotionType;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureState;
-import com.nexora.gameserver.model.templates.walker.RouteStep;
-import com.nexora.gameserver.model.templates.walker.WalkerTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_EMOTION;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.PositionUtil;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.manager.WalkManager;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.EmotionType;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.model.templates.walker.RouteStep;
+import com.aionemu.gameserver.model.templates.walker.WalkerTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_EMOTION;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.PositionUtil;
 
 import ai.GeneralNpcAI;
 

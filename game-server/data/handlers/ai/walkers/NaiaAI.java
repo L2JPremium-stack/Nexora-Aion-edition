@@ -2,14 +2,14 @@ package ai.walkers;
 
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.handler.MoveEventHandler;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.templates.npcshout.NpcShout;
-import com.nexora.gameserver.model.templates.npcshout.ShoutEventType;
-import com.nexora.gameserver.services.NpcShoutsService;
-import com.nexora.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.handler.MoveEventHandler;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.templates.npcshout.NpcShout;
+import com.aionemu.gameserver.model.templates.npcshout.ShoutEventType;
+import com.aionemu.gameserver.services.NpcShoutsService;
+import com.aionemu.gameserver.utils.PositionUtil;
 
 import ai.GeneralNpcAI;
 

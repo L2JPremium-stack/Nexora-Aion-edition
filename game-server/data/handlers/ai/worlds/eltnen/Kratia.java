@@ -1,10 +1,10 @@
 package ai.worlds.eltnen;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.controllers.observer.DeathObserver;
-import com.nexora.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.controllers.observer.DeathObserver;
+import com.aionemu.gameserver.model.gameobjects.Npc;
 
 import ai.AggressiveNpcAI;
 

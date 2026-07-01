@@ -2,19 +2,19 @@ package admincommands;
 
 import java.util.List;
 
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.AbsoluteStatOwner;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.stats.calc.StatOwner;
-import com.nexora.gameserver.model.stats.calc.functions.IStatFunction;
-import com.nexora.gameserver.model.stats.calc.functions.StatFunctionProxy;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.network.aion.serverpackets.SM_STATS_INFO;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.AbsoluteStatOwner;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.stats.calc.StatOwner;
+import com.aionemu.gameserver.model.stats.calc.functions.IStatFunction;
+import com.aionemu.gameserver.model.stats.calc.functions.StatFunctionProxy;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_STATS_INFO;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author MrPoke

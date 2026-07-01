@@ -1,8 +1,8 @@
 package instance.abyss;
 
-import com.nexora.gameserver.instance.handlers.InstanceID;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.instance.handlers.InstanceID;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * Created on June 23rd, 2016

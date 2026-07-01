@@ -1,27 +1,27 @@
 package ai.portals;
 
-import static com.nexora.gameserver.model.DialogAction.*;
+import static com.aionemu.gameserver.model.DialogAction.*;
 
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.autogroup.AutoGroupType;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.portal.PortalPath;
-import com.nexora.gameserver.network.aion.serverpackets.SM_AUTO_GROUP;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.questEngine.model.QuestState;
-import com.nexora.gameserver.questEngine.model.QuestStatus;
-import com.nexora.gameserver.services.DialogService;
-import com.nexora.gameserver.services.QuestService;
-import com.nexora.gameserver.services.findgroup.FindGroupService;
-import com.nexora.gameserver.services.teleport.PortalService;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.autogroup.AutoGroupType;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.portal.PortalPath;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_AUTO_GROUP;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.questEngine.model.QuestState;
+import com.aionemu.gameserver.questEngine.model.QuestStatus;
+import com.aionemu.gameserver.services.DialogService;
+import com.aionemu.gameserver.services.QuestService;
+import com.aionemu.gameserver.services.findgroup.FindGroupService;
+import com.aionemu.gameserver.services.teleport.PortalService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 /**
  * @author xTz, vlog

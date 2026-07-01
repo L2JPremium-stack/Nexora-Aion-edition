@@ -3,13 +3,13 @@ package playercommands;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.item.ItemPacketService.ItemAddType;
-import com.nexora.gameserver.services.item.ItemPacketService.ItemUpdateType;
-import com.nexora.gameserver.services.item.ItemService;
-import com.nexora.gameserver.services.item.ItemService.ItemUpdatePredicate;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.item.ItemPacketService.ItemAddType;
+import com.aionemu.gameserver.services.item.ItemPacketService.ItemUpdateType;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.item.ItemService.ItemUpdatePredicate;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Pad

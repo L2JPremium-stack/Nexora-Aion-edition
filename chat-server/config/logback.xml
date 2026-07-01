@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <configuration>
-	<statusListener class="com.nexora.commons.logging.OnConsoleWarningStatusListener" />
+	<statusListener class="com.aionemu.commons.logging.OnConsoleWarningStatusListener" />
 	<property file="config/main/logging.properties" />
 	<property file="config/mycs.properties" />
 	<property name="logFolder" value="log" />
@@ -40,7 +40,7 @@
 			<Pattern>${date} %logger - %message%n</Pattern>
 		</encoder>
 	</appender>
-	<appender name="app_status_discord" class="com.nexora.commons.logging.DiscordChannelAppender">
+	<appender name="app_status_discord" class="com.aionemu.commons.logging.DiscordChannelAppender">
 		<encoder>
 			<pattern>%logger{0} [%thread]|${chatserver.log.status.discord.avatar_url}|%msg%replace(%n```qml%n%ex```){\r?\n```qml\r?\n```, ''}%nopex</pattern>
 		</encoder>
@@ -60,7 +60,7 @@
 			<Pattern>${date} %message%n</Pattern>
 		</encoder>
 	</appender>
-	<appender name="app_chat_discord" class="com.nexora.commons.logging.DiscordChannelAppender">
+	<appender name="app_chat_discord" class="com.aionemu.commons.logging.DiscordChannelAppender">
 		<encoder>
 			<pattern>%replace(%msg){'\[(.*?) \((.)\)\] (.*?): (.*)', '[$1] $3|${chatserver.log.chat.discord.avatar_url}|$4'}</pattern>
 		</encoder>

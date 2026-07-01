@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <configuration>
-	<statusListener class="com.nexora.commons.logging.OnConsoleWarningStatusListener" />
+	<statusListener class="com.aionemu.commons.logging.OnConsoleWarningStatusListener" />
 	<property file="config/main/logging.properties" />
 	<property file="config/myls.properties" />
 	<property name="logFolder" value="log" />
@@ -9,7 +9,7 @@
 	<appender name="out_console" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<charset>${consoleEncoding:-UTF-8}</charset>
-			<Pattern>${consoleTime} %highlight(%-5level) %gray([%thread]) - %message%n</Pattern>
+			<Pattern>%date{HH:mm:ss} %-5level - %message%n</Pattern>
 		</encoder>
 	</appender>
 	<appender name="app_console" class="ch.qos.logback.core.FileAppender">
@@ -40,7 +40,7 @@
 			<Pattern>${date} %logger - %message%n</Pattern>
 		</encoder>
 	</appender>
-	<appender name="app_status_discord" class="com.nexora.commons.logging.DiscordChannelAppender">
+	<appender name="app_status_discord" class="com.aionemu.commons.logging.DiscordChannelAppender">
 		<encoder>
 			<pattern>%logger{0} [%thread]|${loginserver.log.status.discord.avatar_url}|%msg%replace(%n```qml%n%ex```){\r?\n```qml\r?\n```, ''}%nopex</pattern>
 		</encoder>
@@ -60,7 +60,7 @@
 			<Pattern>${date} %message%n</Pattern>
 		</encoder>
 	</appender>
-	<logger name="com.nexora.loginserver.network.aion.clientpackets.CM_LOGIN" level="debug" additivity="false"> <!-- server logins -->
+	<logger name="com.aionemu.loginserver.network.aion.clientpackets.CM_LOGIN" level="debug" additivity="false"> <!-- server logins -->
 		<appender-ref ref="app_login_audit" />
 	</logger>
 	<root level="INFO">

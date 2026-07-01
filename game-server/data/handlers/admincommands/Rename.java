@@ -1,18 +1,18 @@
 package admincommands;
 
-import com.nexora.gameserver.configs.main.NameConfig;
-import com.nexora.gameserver.dao.OldNamesDAO;
-import com.nexora.gameserver.dao.PlayerDAO;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.PlayerCommonData;
-import com.nexora.gameserver.network.aion.clientpackets.CM_APPEARANCE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.NameRestrictionService;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.Util;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.configs.main.NameConfig;
+import com.aionemu.gameserver.dao.OldNamesDAO;
+import com.aionemu.gameserver.dao.PlayerDAO;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.PlayerCommonData;
+import com.aionemu.gameserver.network.aion.clientpackets.CM_APPEARANCE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.NameRestrictionService;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author xTz

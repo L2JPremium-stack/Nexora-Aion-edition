@@ -4,20 +4,20 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.concurrent.*;
 
-import com.nexora.gameserver.controllers.movement.MovementMask;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.dataholders.WalkerData;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.CustomPlayerState;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureState;
-import com.nexora.gameserver.model.templates.walker.RouteStep;
-import com.nexora.gameserver.model.templates.walker.WalkerTemplate;
-import com.nexora.gameserver.model.templates.walker.WalkerTemplate.LoopType;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.WorldPosition;
+import com.aionemu.gameserver.controllers.movement.MovementMask;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.dataholders.WalkerData;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.CustomPlayerState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureState;
+import com.aionemu.gameserver.model.templates.walker.RouteStep;
+import com.aionemu.gameserver.model.templates.walker.WalkerTemplate;
+import com.aionemu.gameserver.model.templates.walker.WalkerTemplate.LoopType;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.WorldPosition;
 
 /**
  * @author Rolandas, Neon

@@ -1,21 +1,21 @@
 package admincommands;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.Persistable.PersistentState;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.items.ManaStone;
-import com.nexora.gameserver.model.stats.listeners.ItemEquipmentListener;
-import com.nexora.gameserver.model.templates.item.ItemTemplate;
-import com.nexora.gameserver.model.templates.item.actions.TamperingAction;
-import com.nexora.gameserver.model.templates.item.enums.ItemGroup;
-import com.nexora.gameserver.services.EnchantService;
-import com.nexora.gameserver.services.item.ItemPacketService;
-import com.nexora.gameserver.services.item.ItemSocketService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.Util;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.Persistable.PersistentState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.items.ManaStone;
+import com.aionemu.gameserver.model.stats.listeners.ItemEquipmentListener;
+import com.aionemu.gameserver.model.templates.item.ItemTemplate;
+import com.aionemu.gameserver.model.templates.item.actions.TamperingAction;
+import com.aionemu.gameserver.model.templates.item.enums.ItemGroup;
+import com.aionemu.gameserver.services.EnchantService;
+import com.aionemu.gameserver.services.item.ItemPacketService;
+import com.aionemu.gameserver.services.item.ItemSocketService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author Tago, Wakizashi

@@ -1,13 +1,13 @@
 package ai.worlds.panesterra.ahserionsflight;
 
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.configs.main.SiegeConfig;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.configs.main.SiegeConfig;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.skillengine.model.Effect;
 
 /**
  * @author Yeats, Estrayl

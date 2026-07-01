@@ -8,14 +8,14 @@ import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
-import com.nexora.gameserver.configs.main.EventsConfig;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.templates.world.WorldMapTemplate;
-import com.nexora.gameserver.model.templates.worldraid.WorldRaidLocation;
-import com.nexora.gameserver.services.WorldRaidService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.configs.main.EventsConfig;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.templates.world.WorldMapTemplate;
+import com.aionemu.gameserver.model.templates.worldraid.WorldRaidLocation;
+import com.aionemu.gameserver.services.WorldRaidService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Whoop, Sykra

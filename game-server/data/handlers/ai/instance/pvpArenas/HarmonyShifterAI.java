@@ -3,12 +3,12 @@ package ai.instance.pvpArenas;
 import java.util.List;
 import java.util.concurrent.atomic.AtomicBoolean;
 
-import com.nexora.gameserver.ai.AIActions;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.instancescore.HarmonyArenaScore;
-import com.nexora.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.ai.AIActions;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.instancescore.HarmonyArenaScore;
+import com.aionemu.gameserver.skillengine.SkillEngine;
 
 import ai.ShifterAI;
 

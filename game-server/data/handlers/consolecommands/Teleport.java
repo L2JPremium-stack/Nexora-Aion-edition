@@ -1,13 +1,13 @@
 package consolecommands;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.instance.InstanceService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.geo.GeoService;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.instance.InstanceService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.geo.GeoService;
 
 /**
  * Sent in the following cases:<br>

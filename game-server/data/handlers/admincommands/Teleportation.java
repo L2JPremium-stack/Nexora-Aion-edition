@@ -2,10 +2,10 @@ package admincommands;
 
 import java.awt.Color;
 
-import com.nexora.gameserver.model.gameobjects.player.CustomPlayerState;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.player.CustomPlayerState;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author cura, Neon

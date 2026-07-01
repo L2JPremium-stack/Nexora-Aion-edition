@@ -2,9 +2,9 @@ package ai.instance.eternalBastion;
 
 import java.util.concurrent.TimeUnit;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 /**
  * @author Cheatkiller, Estrayl

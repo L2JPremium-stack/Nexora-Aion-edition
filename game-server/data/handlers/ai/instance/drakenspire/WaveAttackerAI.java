@@ -1,9 +1,9 @@
 package ai.instance.drakenspire;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.TribeClass;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.TribeClass;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
 
 import ai.AggressiveNoLootNpcAI;
 

@@ -6,10 +6,10 @@ import java.util.Collection;
 import org.apache.commons.lang3.StringEscapeUtils;
 import org.apache.commons.lang3.StringUtils;
 
-import com.nexora.gameserver.model.Announcement;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.AnnouncementService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.Announcement;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.AnnouncementService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Divinity

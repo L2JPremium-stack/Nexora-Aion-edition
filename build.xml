@@ -9,8 +9,6 @@
 	<property name="login.jar" value="login-server-4.8-SNAPSHOT.jar" />
 	<property name="game.jar" value="game-server-4.8-SNAPSHOT.jar" />
 
-	<property name="game.lib.dir" location="game-server/libs" />
-	<property name="login.lib.dir" location="login-server/libs" />
 	<property name="build.revision" value="local" />
 	<property name="build.branch" value="ant-build" />
 
@@ -33,6 +31,7 @@
 
 	<target name="init" description="Create build directories.">
 		<mkdir dir="${classes.dir}" />
+		<mkdir dir="${lib.dir}" />
 	</target>
 
 	<target name="build-metadata" description="Prepare build metadata for jar manifests.">
@@ -56,7 +55,7 @@
 		</javac>
 	</target>
 
-	<target name="jar-commons" depends="compile,build-metadata" description="Create commons jar.">
+	<target name="jar-commons" depends="compile,build-metadata" description="Create commons jar in the root libs folder.">
 		<jar destfile="${lib.dir}/${commons.jar}">
 			<manifest>
 				<attribute name="Revision" value="${build.revision}" />
@@ -69,7 +68,7 @@
 		</jar>
 	</target>
 
-	<target name="jar-login" depends="compile,build-metadata" description="Create login server jar.">
+	<target name="jar-login" depends="compile,build-metadata" description="Create login server jar in the root libs folder.">
 		<jar destfile="${lib.dir}/${login.jar}">
 			<manifest>
 				<attribute name="Revision" value="${build.revision}" />
@@ -82,7 +81,7 @@
 		</jar>
 	</target>
 
-	<target name="jar-game" depends="compile,build-metadata" description="Create game server jar.">
+	<target name="jar-game" depends="compile,build-metadata" description="Create game server jar in the root libs folder.">
 		<jar destfile="${lib.dir}/${game.jar}">
 			<manifest>
 				<attribute name="Revision" value="${build.revision}" />
@@ -95,18 +94,9 @@
 		</jar>
 	</target>
 
-	<target name="jar" depends="jar-commons,jar-login,jar-game" description="Create all server jars." />
+	<target name="jar" depends="jar-commons,jar-login,jar-game" description="Create all server jars in the root libs folder." />
 
-	<target name="sync-server-libs" depends="jar" description="Copy generated jars into the runnable server folders.">
-		<mkdir dir="${game.lib.dir}" />
-		<mkdir dir="${login.lib.dir}" />
-		<copy file="${lib.dir}/${commons.jar}" todir="${game.lib.dir}" overwrite="true" />
-		<copy file="${lib.dir}/${game.jar}" todir="${game.lib.dir}" overwrite="true" />
-		<copy file="${lib.dir}/${commons.jar}" todir="${login.lib.dir}" overwrite="true" />
-		<copy file="${lib.dir}/${login.jar}" todir="${login.lib.dir}" overwrite="true" />
-	</target>
-
-	<target name="dist-local" depends="clean,sync-server-libs" description="Compile Java and update local server libs.">
+	<target name="dist-local" depends="clean,jar" description="Compile Java and keep generated jars only in the root libs folder.">
 		<delete dir="${build.dir}" />
 	</target>
 

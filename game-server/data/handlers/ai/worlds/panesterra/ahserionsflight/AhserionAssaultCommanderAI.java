@@ -1,8 +1,8 @@
 package ai.worlds.panesterra.ahserionsflight;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.SkillTemplate;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.SkillTemplate;
 
 /**
  * Should also be able to request support once by dropping below 35% HP.

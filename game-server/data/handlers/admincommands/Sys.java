@@ -3,16 +3,16 @@ package admincommands;
 import java.time.format.DateTimeFormatter;
 import java.util.List;
 
-import com.nexora.commons.utils.ExitCode;
-import com.nexora.commons.utils.info.SystemInfo;
-import com.nexora.commons.utils.info.VersionInfo;
-import com.nexora.gameserver.GameServer;
-import com.nexora.gameserver.configs.main.GSConfig;
-import com.nexora.gameserver.configs.main.ShutdownConfig;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.time.ServerTime;
+import com.aionemu.commons.utils.ExitCode;
+import com.aionemu.commons.utils.info.SystemInfo;
+import com.aionemu.commons.utils.info.VersionInfo;
+import com.aionemu.gameserver.GameServer;
+import com.aionemu.gameserver.configs.main.GSConfig;
+import com.aionemu.gameserver.configs.main.ShutdownConfig;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.time.ServerTime;
 
 /**
  * @author lord_rex

@@ -8,13 +8,13 @@ import java.util.List;
 import java.util.Objects;
 import java.util.stream.Collectors;
 
-import com.nexora.commons.network.NioServer;
-import com.nexora.gameserver.GameServer;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.AionConnection;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.commons.network.NioServer;
+import com.aionemu.gameserver.GameServer;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.AionConnection;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Neon

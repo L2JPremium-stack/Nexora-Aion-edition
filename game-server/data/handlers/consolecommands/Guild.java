@@ -1,15 +1,15 @@
 package consolecommands;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.team.legion.Legion;
-import com.nexora.gameserver.model.team.legion.LegionMember;
-import com.nexora.gameserver.network.aion.serverpackets.SM_GM_SHOW_LEGION_INFO;
-import com.nexora.gameserver.network.aion.serverpackets.SM_GM_SHOW_LEGION_MEMBERLIST;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.ConsoleCommand;
-import com.nexora.gameserver.utils.collections.FixedElementCountSplitList;
-import com.nexora.gameserver.utils.collections.SplitList;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.team.legion.Legion;
+import com.aionemu.gameserver.model.team.legion.LegionMember;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_GM_SHOW_LEGION_INFO;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_GM_SHOW_LEGION_MEMBERLIST;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.ConsoleCommand;
+import com.aionemu.gameserver.utils.collections.FixedElementCountSplitList;
+import com.aionemu.gameserver.utils.collections.SplitList;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author Yeats

@@ -1,13 +1,13 @@
 package ai;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.NpcAI;
-import com.nexora.gameserver.ai.handler.MoveEventHandler;
-import com.nexora.gameserver.ai.handler.ThinkEventHandler;
-import com.nexora.gameserver.model.CreatureType;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.NpcAI;
+import com.aionemu.gameserver.ai.handler.MoveEventHandler;
+import com.aionemu.gameserver.ai.handler.ThinkEventHandler;
+import com.aionemu.gameserver.model.CreatureType;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.skillengine.model.Effect;
 
 @AIName("no_interaction")
 public class NoInteractionAI extends NpcAI {

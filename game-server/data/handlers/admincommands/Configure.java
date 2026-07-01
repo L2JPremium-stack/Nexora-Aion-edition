@@ -9,13 +9,13 @@ import java.util.stream.Collectors;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.nexora.commons.configuration.ConfigurableProcessor;
-import com.nexora.commons.configuration.Properties;
-import com.nexora.commons.configuration.TransformationException;
-import com.nexora.gameserver.configs.Config;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.collections.Predicates;
+import com.aionemu.commons.configuration.ConfigurableProcessor;
+import com.aionemu.commons.configuration.Properties;
+import com.aionemu.commons.configuration.TransformationException;
+import com.aionemu.gameserver.configs.Config;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.collections.Predicates;
 
 /**
  * @author ATracer, Rolandas, Neon

@@ -10,7 +10,7 @@
 	<appender name="out_console" class="ch.qos.logback.core.ConsoleAppender">
 		<encoder>
 			<charset>${consoleEncoding:-UTF-8}</charset>
-			<Pattern>${consoleTime} %highlight(%-5level) %gray([%thread]) - %message%n</Pattern>
+			<Pattern>%date{HH:mm:ss} %-5level - %message%n</Pattern>
 		</encoder>
 	</appender>
 	<appender name="app_console" class="ch.qos.logback.core.FileAppender">

@@ -2,13 +2,13 @@ package ai.siege;
 
 import java.util.function.Consumer;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.network.aion.serverpackets.SM_FORTRESS_INFO;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_FORTRESS_INFO;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import ai.GeneralNpcAI;
 

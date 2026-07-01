@@ -1,43 +1,43 @@
 package instance.pvparenas;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_REBIRTH_MASSAGE_ME;
 
 import java.util.Collection;
 import java.util.List;
 import java.util.concurrent.Future;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.controllers.attack.DamageInfo;
-import com.nexora.gameserver.controllers.attack.DamageList;
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.model.autogroup.AGPlayer;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.InstanceProgressionType;
-import com.nexora.gameserver.model.instance.InstanceScoreType;
-import com.nexora.gameserver.model.instance.instancescore.InstanceScore;
-import com.nexora.gameserver.model.instance.instancescore.PvPArenaScore;
-import com.nexora.gameserver.model.instance.playerreward.HarmonyGroupReward;
-import com.nexora.gameserver.model.instance.playerreward.PvPArenaPlayerReward;
-import com.nexora.gameserver.model.team.TemporaryPlayerTeam;
-import com.nexora.gameserver.model.templates.rewards.ArenaRewardItem;
-import com.nexora.gameserver.model.templates.rewards.RewardItem;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
-import com.nexora.gameserver.services.abyss.AbyssPointsService;
-import com.nexora.gameserver.services.abyss.GloryPointsService;
-import com.nexora.gameserver.services.item.ItemService;
-import com.nexora.gameserver.services.player.PlayerReviveService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.skillengine.SkillEngine;
-import com.nexora.gameserver.skillengine.model.Effect;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.controllers.attack.DamageInfo;
+import com.aionemu.gameserver.controllers.attack.DamageList;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.model.autogroup.AGPlayer;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.InstanceProgressionType;
+import com.aionemu.gameserver.model.instance.InstanceScoreType;
+import com.aionemu.gameserver.model.instance.instancescore.InstanceScore;
+import com.aionemu.gameserver.model.instance.instancescore.PvPArenaScore;
+import com.aionemu.gameserver.model.instance.playerreward.HarmonyGroupReward;
+import com.aionemu.gameserver.model.instance.playerreward.PvPArenaPlayerReward;
+import com.aionemu.gameserver.model.team.TemporaryPlayerTeam;
+import com.aionemu.gameserver.model.templates.rewards.ArenaRewardItem;
+import com.aionemu.gameserver.model.templates.rewards.RewardItem;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.services.abyss.AbyssPointsService;
+import com.aionemu.gameserver.services.abyss.GloryPointsService;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.skillengine.SkillEngine;
+import com.aionemu.gameserver.skillengine.model.Effect;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 /**
  * @author xTz, Estrayl

@@ -2,17 +2,17 @@ package playercommands;
 
 import java.util.function.Consumer;
 
-import com.nexora.gameserver.configs.main.CustomConfig;
-import com.nexora.gameserver.model.ChatType;
-import com.nexora.gameserver.model.Race;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_MESSAGE;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.restrictions.PlayerRestrictions;
-import com.nexora.gameserver.services.player.PlayerChatService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.configs.main.CustomConfig;
+import com.aionemu.gameserver.model.ChatType;
+import com.aionemu.gameserver.model.Race;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_MESSAGE;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.restrictions.PlayerRestrictions;
+import com.aionemu.gameserver.services.player.PlayerChatService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author Shepper, bobobear, Neon

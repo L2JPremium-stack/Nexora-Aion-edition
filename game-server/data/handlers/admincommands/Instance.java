@@ -1,12 +1,12 @@
 package admincommands;
 
-import static com.nexora.gameserver.configs.main.AutoGroupConfig.*;
+import static com.aionemu.gameserver.configs.main.AutoGroupConfig.*;
 
-import com.nexora.gameserver.model.autogroup.AutoGroupType;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.instance.PeriodicInstanceManager;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.autogroup.AutoGroupType;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.instance.PeriodicInstanceManager;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ViAl, Estrayl

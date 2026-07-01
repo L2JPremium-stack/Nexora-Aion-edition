@@ -1,11 +1,11 @@
 package ai.siege;
 
-import com.nexora.gameserver.ai.poll.AIQuestion;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.siege.SiegeLocation;
-import com.nexora.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.siege.Siege;
+import com.aionemu.gameserver.ai.poll.AIQuestion;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.siege.SiegeLocation;
+import com.aionemu.gameserver.model.templates.spawns.siegespawns.SiegeSpawnTemplate;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.siege.Siege;
 
 import ai.AggressiveNpcAI;
 

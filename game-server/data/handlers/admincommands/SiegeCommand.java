@@ -6,17 +6,17 @@ import java.util.LinkedHashMap;
 import java.util.List;
 import java.util.stream.Collectors;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.siege.SiegeLocation;
-import com.nexora.gameserver.model.siege.SiegeRace;
-import com.nexora.gameserver.model.siege.SiegeType;
-import com.nexora.gameserver.model.team.legion.Legion;
-import com.nexora.gameserver.services.LegionService;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.services.siege.BalaurAssaultService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.siege.SiegeLocation;
+import com.aionemu.gameserver.model.siege.SiegeRace;
+import com.aionemu.gameserver.model.siege.SiegeType;
+import com.aionemu.gameserver.model.team.legion.Legion;
+import com.aionemu.gameserver.services.LegionService;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.services.siege.BalaurAssaultService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 public class SiegeCommand extends AdminCommand {
 

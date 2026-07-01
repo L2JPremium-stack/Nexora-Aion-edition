@@ -2,16 +2,16 @@ package instance.crucible;
 
 import java.util.List;
 
-import com.nexora.gameserver.instance.handlers.GeneralInstanceHandler;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.instance.StageType;
-import com.nexora.gameserver.model.instance.instancescore.InstanceScore;
-import com.nexora.gameserver.model.instance.playerreward.CruciblePlayerReward;
-import com.nexora.gameserver.services.player.PlayerReviveService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.zone.ZoneName;
+import com.aionemu.gameserver.instance.handlers.GeneralInstanceHandler;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.instance.StageType;
+import com.aionemu.gameserver.model.instance.instancescore.InstanceScore;
+import com.aionemu.gameserver.model.instance.playerreward.CruciblePlayerReward;
+import com.aionemu.gameserver.services.player.PlayerReviveService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.zone.ZoneName;
 
 /**
  * @author xTz

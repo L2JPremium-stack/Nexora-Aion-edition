@@ -2,11 +2,11 @@ package ai.instance.theHexway;
 
 import java.util.concurrent.ScheduledFuture;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.templates.ai.Percentage;
-import com.nexora.gameserver.model.templates.ai.SummonGroup;
-import com.nexora.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.templates.ai.Percentage;
+import com.aionemu.gameserver.model.templates.ai.SummonGroup;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
 
 import ai.SummonerAI;
 

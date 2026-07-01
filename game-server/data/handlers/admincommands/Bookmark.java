@@ -1,8 +1,8 @@
 package admincommands;
 
-import com.nexora.gameserver.dao.BookmarkDAO;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.dao.BookmarkDAO;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 import consolecommands.Bookmark_add;
 

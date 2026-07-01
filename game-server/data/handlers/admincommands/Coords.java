@@ -2,9 +2,9 @@ package admincommands;
 
 import org.apache.commons.lang3.StringUtils;
 
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Estrayl

@@ -1,14 +1,14 @@
 package admincommands;
 
-import com.nexora.gameserver.configs.main.GSConfig;
-import com.nexora.gameserver.model.PlayerClass;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.ClassChangeService;
-import com.nexora.gameserver.services.abyss.AbyssPointsService;
-import com.nexora.gameserver.services.abyss.GloryPointsService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.configs.main.GSConfig;
+import com.aionemu.gameserver.model.PlayerClass;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.ClassChangeService;
+import com.aionemu.gameserver.services.abyss.AbyssPointsService;
+import com.aionemu.gameserver.services.abyss.GloryPointsService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author Nemiroff, ATracer, IceReaper, Sarynth, Artur

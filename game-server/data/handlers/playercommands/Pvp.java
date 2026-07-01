@@ -1,8 +1,8 @@
 package playercommands;
 
-import com.nexora.gameserver.custom.pvpmap.PvpMapService;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.custom.pvpmap.PvpMapService;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Yeats

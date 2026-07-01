@@ -1,12 +1,12 @@
 package admincommands;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.vortex.VortexLocation;
-import com.nexora.gameserver.services.VortexService;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapType;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.vortex.VortexLocation;
+import com.aionemu.gameserver.services.VortexService;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapType;
 
 public class VortexRaid extends AdminCommand {
 

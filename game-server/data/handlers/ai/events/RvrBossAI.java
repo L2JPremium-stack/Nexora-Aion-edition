@@ -2,16 +2,16 @@ package ai.events;
 
 import java.util.List;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.LetterType;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.mail.SystemMailService;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.time.ServerTime;
-import com.nexora.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.LetterType;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.mail.SystemMailService;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.time.ServerTime;
+import com.aionemu.gameserver.world.WorldMapInstance;
 
 import ai.AggressiveNpcAI;
 

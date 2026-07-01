@@ -2,10 +2,10 @@ package admincommands;
 
 import java.sql.Timestamp;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.ban.HDDBanService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.ban.HDDBanService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ViAl

@@ -2,21 +2,21 @@ package ai.instance.custom.eternalChallenge;
 
 import java.util.concurrent.Future;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AttackIntention;
-import com.nexora.gameserver.custom.instance.CustomInstanceRankEnum;
-import com.nexora.gameserver.custom.instance.CustomInstanceService;
-import com.nexora.gameserver.custom.instance.RoahCustomInstanceHandler;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.state.CreatureSeeState;
-import com.nexora.gameserver.network.aion.serverpackets.SM_FORCED_MOVE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.geo.GeoService;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AttackIntention;
+import com.aionemu.gameserver.custom.instance.CustomInstanceRankEnum;
+import com.aionemu.gameserver.custom.instance.CustomInstanceService;
+import com.aionemu.gameserver.custom.instance.RoahCustomInstanceHandler;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.state.CreatureSeeState;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_FORCED_MOVE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.geo.GeoService;
 
 import ai.AggressiveNoLootNpcAI;
 

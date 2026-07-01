@@ -1,15 +1,15 @@
 package ai.instance.custom.eternalChallenge;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.ai.AttackIntention;
-import com.nexora.gameserver.custom.instance.RoahCustomInstanceHandler;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.network.aion.serverpackets.SM_FORCED_MOVE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.geo.GeoService;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.ai.AttackIntention;
+import com.aionemu.gameserver.custom.instance.RoahCustomInstanceHandler;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_FORCED_MOVE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.geo.GeoService;
 
 import ai.AggressiveNoLootNpcAI;
 

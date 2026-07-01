@@ -9,21 +9,21 @@ import java.util.concurrent.TimeUnit;
 import java.util.concurrent.atomic.AtomicBoolean;
 import java.util.stream.Stream;
 
-import com.nexora.commons.utils.Rnd;
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.controllers.NpcController;
-import com.nexora.gameserver.controllers.effect.EffectController;
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.drop.DropItem;
-import com.nexora.gameserver.model.gameobjects.DropNpc;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.stats.calc.Stat2;
-import com.nexora.gameserver.model.stats.container.StatEnum;
-import com.nexora.gameserver.model.templates.spawns.SpawnTemplate;
-import com.nexora.gameserver.services.drop.DropRegistrationService;
-import com.nexora.gameserver.spawnengine.SpawnEngine;
-import com.nexora.gameserver.world.knownlist.NpcKnownList;
+import com.aionemu.commons.utils.Rnd;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.controllers.NpcController;
+import com.aionemu.gameserver.controllers.effect.EffectController;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.drop.DropItem;
+import com.aionemu.gameserver.model.gameobjects.DropNpc;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.stats.calc.Stat2;
+import com.aionemu.gameserver.model.stats.container.StatEnum;
+import com.aionemu.gameserver.model.templates.spawns.SpawnTemplate;
+import com.aionemu.gameserver.services.drop.DropRegistrationService;
+import com.aionemu.gameserver.spawnengine.SpawnEngine;
+import com.aionemu.gameserver.world.knownlist.NpcKnownList;
 
 import ai.OneDmgAI;
 

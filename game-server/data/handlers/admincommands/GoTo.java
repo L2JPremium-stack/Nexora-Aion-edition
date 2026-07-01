@@ -1,6 +1,6 @@
 package admincommands;
 
-import static com.nexora.gameserver.world.WorldMapType.*;
+import static com.aionemu.gameserver.world.WorldMapType.*;
 import static java.util.stream.Collectors.*;
 
 import java.awt.*;
@@ -9,15 +9,15 @@ import java.util.List;
 
 import org.apache.commons.lang3.text.WordUtils;
 
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.services.instance.InstanceService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.WorldMapType;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.services.instance.InstanceService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.WorldMapType;
 
 /**
  * @author Dwarfpicker, Imaginary, Neon

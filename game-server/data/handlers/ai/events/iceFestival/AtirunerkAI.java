@@ -1,11 +1,11 @@
 package ai.events.iceFestival;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.DialogAction;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.questEngine.QuestEngine;
-import com.nexora.gameserver.questEngine.model.QuestEnv;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.DialogAction;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.questEngine.QuestEngine;
+import com.aionemu.gameserver.questEngine.model.QuestEnv;
 
 import ai.GeneralNpcAI;
 

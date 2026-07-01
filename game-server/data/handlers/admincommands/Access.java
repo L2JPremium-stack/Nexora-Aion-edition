@@ -5,12 +5,12 @@ import java.util.Map;
 
 import org.apache.commons.lang3.math.NumberUtils;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.PlayerCommonData;
-import com.nexora.gameserver.services.CommandsAccessService;
-import com.nexora.gameserver.services.player.PlayerService;
-import com.nexora.gameserver.utils.Util;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.PlayerCommonData;
+import com.aionemu.gameserver.services.CommandsAccessService;
+import com.aionemu.gameserver.services.player.PlayerService;
+import com.aionemu.gameserver.utils.Util;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
 
 /**
  * @author ViAl, Neon

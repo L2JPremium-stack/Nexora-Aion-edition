@@ -1,19 +1,19 @@
 package ai.portals;
 
-import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_HOUSING_ENTER_NEED_HOUSE;
+import static com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_HOUSING_ENTER_NEED_HOUSE;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.animations.TeleportAnimation;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.house.House;
-import com.nexora.gameserver.services.HousingService;
-import com.nexora.gameserver.services.instance.InstanceService;
-import com.nexora.gameserver.services.teleport.TeleportService;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.world.World;
-import com.nexora.gameserver.world.WorldMapInstance;
-import com.nexora.gameserver.world.WorldMapType;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.animations.TeleportAnimation;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.house.House;
+import com.aionemu.gameserver.services.HousingService;
+import com.aionemu.gameserver.services.instance.InstanceService;
+import com.aionemu.gameserver.services.teleport.TeleportService;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.world.World;
+import com.aionemu.gameserver.world.WorldMapInstance;
+import com.aionemu.gameserver.world.WorldMapType;
 
 import ai.ActionItemNpcAI;
 

@@ -5,18 +5,18 @@ import java.lang.reflect.Field;
 import org.apache.commons.lang3.StringUtils;
 import org.slf4j.LoggerFactory;
 
-import com.nexora.gameserver.ai.*;
-import com.nexora.gameserver.ai.event.AIEventLog;
-import com.nexora.gameserver.ai.event.AIEventType;
-import com.nexora.gameserver.configs.main.AIConfig;
-import com.nexora.gameserver.model.animations.ObjectDeleteAnimation;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.VisibleObject;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.world.World;
+import com.aionemu.gameserver.ai.*;
+import com.aionemu.gameserver.ai.event.AIEventLog;
+import com.aionemu.gameserver.ai.event.AIEventType;
+import com.aionemu.gameserver.configs.main.AIConfig;
+import com.aionemu.gameserver.model.animations.ObjectDeleteAnimation;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.VisibleObject;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.world.World;
 
 /**
  * @author ATracer, Neon

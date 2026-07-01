@@ -1,19 +1,19 @@
 package ai.siege;
 
-import static com.nexora.gameserver.model.DialogAction.*;
+import static com.aionemu.gameserver.model.DialogAction.*;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.DialogPage;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.siege.SiegeNpc;
-import com.nexora.gameserver.model.siege.FortressLocation;
-import com.nexora.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
-import com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
-import com.nexora.gameserver.services.SiegeService;
-import com.nexora.gameserver.services.siege.FortressSiege;
-import com.nexora.gameserver.services.siege.MercenaryLocation;
-import com.nexora.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.DialogPage;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.siege.SiegeNpc;
+import com.aionemu.gameserver.model.siege.FortressLocation;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_DIALOG_WINDOW;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.siege.FortressSiege;
+import com.aionemu.gameserver.services.siege.MercenaryLocation;
+import com.aionemu.gameserver.utils.PacketSendUtility;
 
 import ai.GeneralNpcAI;
 

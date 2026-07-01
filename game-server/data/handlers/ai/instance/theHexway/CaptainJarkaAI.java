@@ -1,9 +1,9 @@
 package ai.instance.theHexway;
 
-import com.nexora.gameserver.ai.AIName;
-import com.nexora.gameserver.model.gameobjects.Npc;
-import com.nexora.gameserver.utils.PositionUtil;
-import com.nexora.gameserver.world.WorldPosition;
+import com.aionemu.gameserver.ai.AIName;
+import com.aionemu.gameserver.model.gameobjects.Npc;
+import com.aionemu.gameserver.utils.PositionUtil;
+import com.aionemu.gameserver.world.WorldPosition;
 
 import ai.SummonerAI;
 

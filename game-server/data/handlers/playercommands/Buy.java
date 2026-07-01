@@ -1,25 +1,25 @@
 package playercommands;
 
-import static com.nexora.gameserver.custom.instance.CustomInstanceService.REWARD_COIN_ID;
+import static com.aionemu.gameserver.custom.instance.CustomInstanceService.REWARD_COIN_ID;
 
 import java.awt.Color;
 import java.util.LinkedHashMap;
 import java.util.Map;
 import java.util.Map.Entry;
 
-import com.nexora.gameserver.dataholders.DataManager;
-import com.nexora.gameserver.model.gameobjects.Creature;
-import com.nexora.gameserver.model.gameobjects.Item;
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.model.gameobjects.player.RequestResponseHandler;
-import com.nexora.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
-import com.nexora.gameserver.services.item.ItemPacketService.ItemAddType;
-import com.nexora.gameserver.services.item.ItemPacketService.ItemUpdateType;
-import com.nexora.gameserver.services.item.ItemService;
-import com.nexora.gameserver.services.item.ItemService.ItemUpdatePredicate;
-import com.nexora.gameserver.utils.ChatUtil;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.chathandlers.PlayerCommand;
+import com.aionemu.gameserver.dataholders.DataManager;
+import com.aionemu.gameserver.model.gameobjects.Creature;
+import com.aionemu.gameserver.model.gameobjects.Item;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.model.gameobjects.player.RequestResponseHandler;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_QUESTION_WINDOW;
+import com.aionemu.gameserver.services.item.ItemPacketService.ItemAddType;
+import com.aionemu.gameserver.services.item.ItemPacketService.ItemUpdateType;
+import com.aionemu.gameserver.services.item.ItemService;
+import com.aionemu.gameserver.services.item.ItemService.ItemUpdatePredicate;
+import com.aionemu.gameserver.utils.ChatUtil;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.chathandlers.PlayerCommand;
 
 /**
  * @author Estrayl

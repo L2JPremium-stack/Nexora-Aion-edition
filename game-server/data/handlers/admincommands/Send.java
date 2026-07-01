@@ -8,13 +8,13 @@ import java.util.List;
 
 import javax.xml.bind.annotation.*;
 
-import com.nexora.gameserver.model.gameobjects.player.Player;
-import com.nexora.gameserver.network.aion.serverpackets.SM_CUSTOM_PACKET;
-import com.nexora.gameserver.network.aion.serverpackets.SM_CUSTOM_PACKET.PacketElementType;
-import com.nexora.gameserver.utils.PacketSendUtility;
-import com.nexora.gameserver.utils.ThreadPoolManager;
-import com.nexora.gameserver.utils.chathandlers.AdminCommand;
-import com.nexora.gameserver.utils.xml.JAXBUtil;
+import com.aionemu.gameserver.model.gameobjects.player.Player;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_CUSTOM_PACKET;
+import com.aionemu.gameserver.network.aion.serverpackets.SM_CUSTOM_PACKET.PacketElementType;
+import com.aionemu.gameserver.utils.PacketSendUtility;
+import com.aionemu.gameserver.utils.ThreadPoolManager;
+import com.aionemu.gameserver.utils.chathandlers.AdminCommand;
+import com.aionemu.gameserver.utils.xml.JAXBUtil;
 
 /**
  * This admin command is used for sending custom packets from server to client.
