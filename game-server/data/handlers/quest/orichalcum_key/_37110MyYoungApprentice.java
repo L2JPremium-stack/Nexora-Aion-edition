@@ -1,0 +1,88 @@
+package quest.orichalcum_key;
+
+import static com.nexora.gameserver.model.DialogAction.*;
+import static com.nexora.gameserver.network.aion.serverpackets.SM_SYSTEM_MESSAGE.STR_MSG_DailyQuest_Ask_Mentee;
+
+import com.nexora.gameserver.configs.main.GroupConfig;
+import com.nexora.gameserver.model.gameobjects.Npc;
+import com.nexora.gameserver.model.gameobjects.player.Player;
+import com.nexora.gameserver.model.team.group.PlayerGroup;
+import com.nexora.gameserver.questEngine.handlers.AbstractQuestHandler;
+import com.nexora.gameserver.questEngine.model.QuestEnv;
+import com.nexora.gameserver.questEngine.model.QuestState;
+import com.nexora.gameserver.questEngine.model.QuestStatus;
+import com.nexora.gameserver.services.QuestService;
+import com.nexora.gameserver.utils.PacketSendUtility;
+import com.nexora.gameserver.utils.PositionUtil;
+
+/**
+ * @author Cheatkiller
+ */
+public class _37110MyYoungApprentice extends AbstractQuestHandler {
+
+	public _37110MyYoungApprentice() {
+		super(37110);
+	}
+
+	@Override
+	public void register() {
+		qe.registerQuestNpc(700968).addOnTalkEvent(questId);
+		qe.registerQuestNpc(799906).addOnTalkEvent(questId);
+		qe.registerQuestNpc(217170).addOnKillEvent(questId);
+	}
+
+	@Override
+	public boolean onKillEvent(QuestEnv env) {
+		return defaultOnKillEvent(env, 217170, 0, 5);
+	}
+
+	@Override
+	public boolean onDialogEvent(QuestEnv env) {
+		Player player = env.getPlayer();
+		QuestState qs = player.getQuestStateList().getQuestState(questId);
+		int dialogActionId = env.getDialogActionId();
+		int targetId = env.getTargetId();
+
+		if (qs == null || qs.isStartable()) {
+			if (targetId == 0) {
+				if (dialogActionId == QUEST_ACCEPT_1) {
+					QuestService.startQuest(env);
+					return closeDialogWindow(env);
+				}
+			}
+		}
+
+		if (qs != null && qs.getStatus() == QuestStatus.START) {
+			if (targetId == 700968) {
+				if (player.isInGroup()) {
+					PlayerGroup group = player.getPlayerGroup();
+					if (group.getMembers().stream().anyMatch(member -> member.isMentor() && PositionUtil.isInRange(player, member, GroupConfig.GROUP_MAX_DISTANCE))) {
+						Npc npc = (Npc) env.getVisibleObject();
+						npc.getController().deleteAndScheduleRespawn();
+						spawnForFiveMinutes(217170, npc.getPosition());
+						return true;
+					}
+					PacketSendUtility.sendPacket(player, STR_MSG_DailyQuest_Ask_Mentee());
+				}
+			}
+			if (targetId == 799906) {
+				if (dialogActionId == QUEST_SELECT) {
+					if (qs.getQuestVarById(0) == 5) {
+						return sendQuestDialog(env, 1352);
+					}
+				} else if (dialogActionId == SELECT_QUEST_REWARD) {
+					return defaultCloseDialog(env, 5, 5, true, true);
+				}
+			}
+		} else if (qs != null && qs.getStatus() == QuestStatus.REWARD) {
+			if (targetId == 799906) {
+				if (dialogActionId == USE_OBJECT) {
+					return sendQuestDialog(env, 5);
+				} else {
+					return sendQuestEndDialog(env);
+				}
+			}
+		}
+		return false;
+	}
+}

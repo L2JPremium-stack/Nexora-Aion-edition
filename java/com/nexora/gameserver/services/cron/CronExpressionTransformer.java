@@ -1,0 +1,22 @@
+package com.nexora.gameserver.services.cron;
+
+import org.quartz.CronExpression;
+
+import com.nexora.commons.configuration.TransformationTypeInfo;
+import com.nexora.commons.configuration.transformers.PropertyTransformer;
+
+/**
+ * @author Neon
+ */
+public class CronExpressionTransformer extends PropertyTransformer<CronExpression> {
+
+	@Override
+	public boolean matches(Class<?> targetType) {
+		return targetType == CronExpression.class;
+	}
+
+	@Override
+	protected CronExpression parseObject(String value, TransformationTypeInfo typeInfo) throws Exception {
+		return value.isEmpty() ? null : CronExpressions.getOrCreate(value);
+	}
+}

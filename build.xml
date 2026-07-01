@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dev_aion" default="dist-local" basedir=".">
+	<property name="src.dir" location="java" />
+	<property name="lib.dir" location="libs" />
+	<property name="build.dir" location="build" />
+	<property name="classes.dir" location="${build.dir}/classes" />
+
+	<property name="commons.jar" value="commons-4.8-SNAPSHOT.jar" />
+	<property name="login.jar" value="login-server-4.8-SNAPSHOT.jar" />
+	<property name="game.jar" value="game-server-4.8-SNAPSHOT.jar" />
+
+	<property name="game.lib.dir" location="game-server/libs" />
+	<property name="login.lib.dir" location="login-server/libs" />
+	<property name="build.revision" value="local" />
+	<property name="build.branch" value="ant-build" />
+
+	<!-- Override these in Eclipse Ant properties if your JDK is installed somewhere else. -->
+	<property name="java.release" value="25" />
+	<property name="jdk.home" location="C:/Program Files/Java/jdk-25.0.2" />
+	<property name="javac.executable" location="${jdk.home}/bin/javac.exe" />
+
+	<path id="compile.classpath">
+		<fileset dir="${lib.dir}">
+			<include name="**/*.jar" />
+		</fileset>
+	</path>
+
+	<target name="prepare-final" depends="init" description="Compatibility target used by older Ant setups." />
+
+	<target name="clean" description="Remove generated build classes.">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="init" description="Create build directories.">
+		<mkdir dir="${classes.dir}" />
+	</target>
+
+	<target name="build-metadata" description="Prepare build metadata for jar manifests.">
+		<tstamp>
+			<format property="build.date" pattern="yyyy-MM-dd'T'HH:mm:ss'Z'" timezone="UTC" />
+		</tstamp>
+	</target>
+
+	<target name="compile" depends="init" description="Compile commons, login server and game server sources.">
+		<javac destdir="${classes.dir}"
+			   includeantruntime="false"
+			   fork="true"
+			   executable="${javac.executable}"
+			   release="${java.release}"
+			   encoding="UTF-8"
+			   debug="on"
+			   nowarn="off"
+			   memoryMaximumSize="1536m">
+			<src path="${src.dir}" />
+			<classpath refid="compile.classpath" />
+		</javac>
+	</target>
+
+	<target name="jar-commons" depends="compile,build-metadata" description="Create commons jar.">
+		<jar destfile="${lib.dir}/${commons.jar}">
+			<manifest>
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Branch" value="${build.branch}" />
+				<attribute name="Date" value="${build.date}" />
+			</manifest>
+			<fileset dir="${classes.dir}">
+				<include name="com/aionemu/commons/**" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="jar-login" depends="compile,build-metadata" description="Create login server jar.">
+		<jar destfile="${lib.dir}/${login.jar}">
+			<manifest>
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Branch" value="${build.branch}" />
+				<attribute name="Date" value="${build.date}" />
+			</manifest>
+			<fileset dir="${classes.dir}">
+				<include name="com/aionemu/loginserver/**" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="jar-game" depends="compile,build-metadata" description="Create game server jar.">
+		<jar destfile="${lib.dir}/${game.jar}">
+			<manifest>
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Branch" value="${build.branch}" />
+				<attribute name="Date" value="${build.date}" />
+			</manifest>
+			<fileset dir="${classes.dir}">
+				<include name="com/aionemu/gameserver/**" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="jar" depends="jar-commons,jar-login,jar-game" description="Create all server jars." />
+
+	<target name="sync-server-libs" depends="jar" description="Copy generated jars into the runnable server folders.">
+		<mkdir dir="${game.lib.dir}" />
+		<mkdir dir="${login.lib.dir}" />
+		<copy file="${lib.dir}/${commons.jar}" todir="${game.lib.dir}" overwrite="true" />
+		<copy file="${lib.dir}/${game.jar}" todir="${game.lib.dir}" overwrite="true" />
+		<copy file="${lib.dir}/${commons.jar}" todir="${login.lib.dir}" overwrite="true" />
+		<copy file="${lib.dir}/${login.jar}" todir="${login.lib.dir}" overwrite="true" />
+	</target>
+
+	<target name="dist-local" depends="clean,sync-server-libs" description="Compile Java and update local server libs.">
+		<delete dir="${build.dir}" />
+	</target>
+
+	<target name="export" depends="dist-local" description="Compatibility target: same as dist-local." />
+</project>

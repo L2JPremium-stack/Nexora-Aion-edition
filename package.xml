@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project name="dev_aion_package" default="package" basedir=".">
+	<property name="dist.dir" location="dist" />
+	<property name="archive.file" location="${dist.dir}/aion-server.zip" />
+
+	<target name="clean-package" description="Remove previous packaged server output.">
+		<delete dir="${dist.dir}/game-server" />
+		<delete dir="${dist.dir}/login-server" />
+		<delete dir="${dist.dir}/chat-server" />
+		<delete dir="${dist.dir}/tools" />
+		<delete dir="${dist.dir}/libs" />
+		<delete file="${archive.file}" />
+	</target>
+
+	<target name="compile-java" description="Compile Java before packaging.">
+		<ant antfile="build.xml" target="dist-local" inheritAll="true" />
+	</target>
+
+	<target name="copy-server" depends="clean-package" description="Copy runnable server folders into dist/aion-server.">
+		<mkdir dir="${dist.dir}" />
+
+		<copy todir="${dist.dir}/game-server">
+			<fileset dir="game-server">
+				<exclude name="log/**" />
+			</fileset>
+		</copy>
+		<mkdir dir="${dist.dir}/game-server/log" />
+
+		<copy todir="${dist.dir}/login-server">
+			<fileset dir="login-server">
+				<exclude name="log/**" />
+			</fileset>
+		</copy>
+		<mkdir dir="${dist.dir}/login-server/log" />
+
+		<copy todir="${dist.dir}/chat-server">
+			<fileset dir="chat-server">
+				<exclude name="log/**" />
+			</fileset>
+		</copy>
+		<mkdir dir="${dist.dir}/chat-server/log" />
+
+		<copy todir="${dist.dir}/tools">
+			<fileset dir="tools" />
+		</copy>
+ 
+	</target>
+
+	<target name="zip-package" depends="copy-server" description="Create dist/aion-server.zip.">
+		<zip destfile="${archive.file}">
+			<zipfileset dir="${dist.dir}/game-server" prefix="game-server" />
+			<zipfileset dir="${dist.dir}/login-server" prefix="login-server" />
+			<zipfileset dir="${dist.dir}/chat-server" prefix="chat-server" />
+			<zipfileset dir="${dist.dir}/tools" prefix="tools" />
+		</zip>
+	</target>
+
+	<target name="package-existing" depends="zip-package" description="Package the current files without recompiling Java." />
+
+	<target name="package" depends="compile-java,zip-package" description="Compile Java and package the full Aion server." />
+</project>
