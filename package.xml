@@ -7,8 +7,11 @@
 		<delete dir="${dist.dir}/game-server" />
 		<delete dir="${dist.dir}/login-server" />
 		<delete dir="${dist.dir}/chat-server" />
+		<delete dir="${dist.dir}/dashboard" />
+		<delete dir="${dist.dir}/images" />
 		<delete dir="${dist.dir}/tools" />
 		<delete dir="${dist.dir}/libs" />
+		<delete file="${dist.dir}/start.vbs" />
 		<delete file="${archive.file}" />
 	</target>
 
@@ -40,6 +43,16 @@
 			</fileset>
 		</copy>
 
+		<copy todir="${dist.dir}/dashboard">
+			<fileset dir="dashboard" />
+		</copy>
+
+		<copy todir="${dist.dir}/images">
+			<fileset dir="images" />
+		</copy>
+
+		<copy file="start.vbs" todir="${dist.dir}" />
+
 		<copy todir="${dist.dir}/tools">
 			<fileset dir="tools" />
 		</copy>
@@ -47,6 +60,7 @@
 		<copy todir="${dist.dir}/libs">
 			<fileset dir="libs">
 				<include name="**/*.jar" />
+				<exclude name="dashboard-4.8-SNAPSHOT.jar" />
 			</fileset>
 		</copy>
 	</target>
@@ -56,8 +70,11 @@
 			<zipfileset dir="${dist.dir}/game-server" prefix="game-server" />
 			<zipfileset dir="${dist.dir}/login-server" prefix="login-server" />
 			<zipfileset dir="${dist.dir}/chat-server" prefix="chat-server" />
+			<zipfileset dir="${dist.dir}/dashboard" prefix="dashboard" />
+			<zipfileset dir="${dist.dir}/images" prefix="images" />
 			<zipfileset dir="${dist.dir}/tools" prefix="tools" />
 			<zipfileset dir="${dist.dir}/libs" prefix="libs" />
+			<zipfileset file="${dist.dir}/start.vbs" fullpath="start.vbs" />
 		</zip>
 	</target>
 
@@ -65,8 +82,11 @@
 		<delete dir="${dist.dir}/game-server" />
 		<delete dir="${dist.dir}/login-server" />
 		<delete dir="${dist.dir}/chat-server" />
+		<delete dir="${dist.dir}/dashboard" />
+		<delete dir="${dist.dir}/images" />
 		<delete dir="${dist.dir}/tools" />
 		<delete dir="${dist.dir}/libs" />
+		<delete file="${dist.dir}/start.vbs" />
 	</target>
 
 	<target name="package-existing" depends="zip-package,clean-staging" description="Package the current files without recompiling Java." />

@@ -8,6 +8,7 @@
 	<property name="commons.jar" value="commons-4.8-SNAPSHOT.jar" />
 	<property name="login.jar" value="login-server-4.8-SNAPSHOT.jar" />
 	<property name="game.jar" value="game-server-4.8-SNAPSHOT.jar" />
+	<property name="dashboard.jar" value="dashboard-20.0.jar" />
 
 	<property name="build.revision" value="local" />
 	<property name="build.branch" value="ant-build" />
@@ -40,7 +41,7 @@
 		</tstamp>
 	</target>
 
-	<target name="compile" depends="init" description="Compile commons, login server and game server sources.">
+	<target name="compile" depends="init" description="Compile commons, login server, game server and dashboard sources.">
 		<javac destdir="${classes.dir}"
 			   includeantruntime="false"
 			   fork="true"
@@ -94,7 +95,21 @@
 		</jar>
 	</target>
 
-	<target name="jar" depends="jar-commons,jar-login,jar-game" description="Create all server jars in the root libs folder." />
+	<target name="jar-dashboard" depends="compile,build-metadata" description="Create Nexora dashboard jar in the root libs folder.">
+		<jar destfile="${lib.dir}/${dashboard.jar}">
+			<manifest>
+				<attribute name="Main-Class" value="com.aionemu.dashboard.Dashboard" />
+				<attribute name="Revision" value="${build.revision}" />
+				<attribute name="Branch" value="${build.branch}" />
+				<attribute name="Date" value="${build.date}" />
+			</manifest>
+			<fileset dir="${classes.dir}">
+				<include name="com/aionemu/dashboard/**" />
+			</fileset>
+		</jar>
+	</target>
+
+	<target name="jar" depends="jar-commons,jar-login,jar-game,jar-dashboard" description="Create all server and dashboard jars in the root libs folder." />
 
 	<target name="dist-local" depends="clean,jar" description="Compile Java and keep generated jars only in the root libs folder.">
 		<delete dir="${build.dir}" />

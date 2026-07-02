@@ -36,8 +36,10 @@ Servidor AION 4.8 FULL EDITION preparado para desenvolvimento, compilacao e empa
 | `login-server/` | Servidor de login e configuracoes |
 | `game-server/` | Servidor do jogo, dados, scripts e configuracoes |
 | `chat-server/` | Servidor de chat |
+| `dashboard/` | Configuracoes e start do painel Nexora |
+| `start.vbs` | Entrada principal do Dashboard |
 | `tools/sql/` | Scripts SQL dos bancos `aion_ls`, `aion_gs` e `aion_cs` |
-| `build.xml` | Compila os fontes e sincroniza os jars nas pastas dos servidores |
+| `build.xml` | Compila os fontes e gera os jars em `libs/` |
 | `package.xml` | Gera o pacote final em `dist/aion-server.zip` |
 
 ## Requisitos
@@ -118,11 +120,10 @@ Pelo Ant:
 ant -f build.xml dist-local
 ```
 
-Esse comando compila o projeto e sincroniza os jars gerados em:
+Esse comando compila o projeto e deixa os jars gerados em:
 
 ```text
-game-server/libs/
-login-server/libs/
+libs/
 ```
 
 ## Empacotar
@@ -145,20 +146,28 @@ O pacote final sera criado em:
 dist/aion-server.zip
 ```
 
-Observacao importante sobre o `package.xml`: o ZIP final nao deve carregar uma pasta `libs` solta na raiz. As bibliotecas necessarias ficam dentro de `game-server/libs` e `login-server/libs`, que sao as pastas usadas pelos scripts de inicializacao.
+Observacao importante sobre o `package.xml`: o ZIP final carrega `libs/` na raiz, porque os scripts `start.vbs` usam essa pasta compartilhada para Login Server, Game Server e Dashboard.
 
 ## Iniciar
-Ordem recomendada:
+Entrada principal:
+
+```bat
+start.vbs
+```
+
+O Dashboard abre os controles para Login Server e Game Server, exibe logs em tempo real e usa os `start.vbs` de cada servidor em modo interno para iniciar, parar e reiniciar os processos.
+
+Os scripts individuais continuam disponiveis para uso manual:
 
 ```bat
 cd login-server
-.\start.bat
+.\start.vbs
 
 cd ..\chat-server
 .\start.bat
 
 cd ..\game-server
-.\start.bat
+.\start.vbs
 ```
 
 ## Checklist Rapido
@@ -167,5 +176,5 @@ cd ..\game-server
 - Projeto importado no Eclipse IDE 2022.
 - Bancos `aion_ls`, `aion_gs` e `aion_cs` importados.
 - Registro em `aion_ls.gameservers`: ID `1`, IP `127.0.0.1`, PASS `1234`.
-- Jars gerados e sincronizados em `game-server/libs` e `login-server/libs`.
+- Jars gerados em `libs/`, incluindo `dashboard-20.0.jar`.
 - Login Server iniciado antes do Game Server.
