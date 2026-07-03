@@ -1,13 +1,5 @@
 package com.aionemu.gameserver;
 
-import java.lang.management.ManagementFactory;
-import java.util.TimeZone;
-import java.util.concurrent.locks.ReentrantLock;
-import java.util.stream.Stream;
-
-import org.slf4j.Logger;
-import org.slf4j.LoggerFactory;
-
 import com.aionemu.commons.configuration.transformers.PropertyTransformers;
 import com.aionemu.commons.database.DatabaseFactory;
 import com.aionemu.commons.logging.Logging;
@@ -34,10 +26,36 @@ import com.aionemu.gameserver.model.GameEngine;
 import com.aionemu.gameserver.model.Race;
 import com.aionemu.gameserver.model.siege.Influence;
 import com.aionemu.gameserver.network.aion.GameConnectionFactoryImpl;
+import com.aionemu.gameserver.network.anticheat.NexoraVanguardListener;
 import com.aionemu.gameserver.network.chatserver.ChatServer;
 import com.aionemu.gameserver.network.loginserver.LoginServer;
 import com.aionemu.gameserver.questEngine.QuestEngine;
-import com.aionemu.gameserver.services.*;
+import com.aionemu.gameserver.services.AdminService;
+import com.aionemu.gameserver.services.AnnouncementService;
+import com.aionemu.gameserver.services.AtreianPassportService;
+import com.aionemu.gameserver.services.BaseService;
+import com.aionemu.gameserver.services.BrokerService;
+import com.aionemu.gameserver.services.ChallengeTaskService;
+import com.aionemu.gameserver.services.CommandsAccessService;
+import com.aionemu.gameserver.services.CronJobService;
+import com.aionemu.gameserver.services.CuringZoneService;
+import com.aionemu.gameserver.services.DatabaseCleaningService;
+import com.aionemu.gameserver.services.DebugService;
+import com.aionemu.gameserver.services.ExchangeService;
+import com.aionemu.gameserver.services.FlyRingService;
+import com.aionemu.gameserver.services.GameTimeService;
+import com.aionemu.gameserver.services.HousingBidService;
+import com.aionemu.gameserver.services.HousingService;
+import com.aionemu.gameserver.services.LegionDominionService;
+import com.aionemu.gameserver.services.LimitedItemTradeService;
+import com.aionemu.gameserver.services.PeriodicSaveService;
+import com.aionemu.gameserver.services.RiftService;
+import com.aionemu.gameserver.services.RoadService;
+import com.aionemu.gameserver.services.SiegeService;
+import com.aionemu.gameserver.services.TownService;
+import com.aionemu.gameserver.services.VortexService;
+import com.aionemu.gameserver.services.WeatherService;
+import com.aionemu.gameserver.services.WorldRaidService;
 import com.aionemu.gameserver.services.abyss.AbyssRankUpdateService;
 import com.aionemu.gameserver.services.abyss.AbyssRankingCache;
 import com.aionemu.gameserver.services.conquerorAndProtectorSystem.ConquerorAndProtectorService;
@@ -60,6 +78,14 @@ import com.aionemu.gameserver.utils.xml.JAXBUtil;
 import com.aionemu.gameserver.world.World;
 import com.aionemu.gameserver.world.geo.GeoService;
 import com.aionemu.gameserver.world.zone.ZoneService;
+
+import java.lang.management.ManagementFactory;
+import java.util.TimeZone;
+import java.util.concurrent.locks.ReentrantLock;
+import java.util.stream.Stream;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
 /**
  * <tt>GameServer</tt> is the main class of the application and represents the whole game server.<br>
@@ -182,6 +208,11 @@ public class GameServer {
 		SystemInfo.logAll();
 
 		nioServer = initNioServer();
+
+		if (GSConfig.NEXORAVANGUARD_ENABLE) {
+			NexoraVanguardListener.getInstance().start();
+		}
+
 		Runtime.getRuntime().addShutdownHook(ShutdownHook.getInstance());
 		log.info("Game server started in " + (System.currentTimeMillis() / 1000 - START_TIME_SECONDS) + " seconds.");
 

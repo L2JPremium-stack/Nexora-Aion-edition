@@ -81,6 +81,15 @@ public class GSConfig {
 	public static boolean ANALYZE_QUESTHANDLERS;
 
 	/**
+	 * NexoraVanguard AntiCheat Configuration
+	 */
+	@Property(key = "gameserver.anticheat.nexoravanguard.enable", defaultValue = "false")
+	public static boolean NEXORAVANGUARD_ENABLE;
+
+	@Property(key = "gameserver.anticheat.nexoravanguard.port", defaultValue = "5005")
+	public static int NEXORAVANGUARD_PORT;
+
+	/**
 	 * Location of quest *.java handlers
 	 */
 	@Property(key = "gameserver.quest.handler_directory", defaultValue = "./data/handlers/quest")
